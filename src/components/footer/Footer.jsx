@@ -45,7 +45,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 text-center  mt-5 mb-5">
+            <div className="col-12 text-center  mt-5 mb-5 sf-technoloies">
               <span>2023 © SF Technologies Group</span>
             </div>
           </div>

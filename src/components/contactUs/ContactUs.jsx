@@ -2,7 +2,7 @@ import React from "react";
 import "./ContactUs.css";
 import imgBackgroud from "../images/Group 8.png";
 import { Button, Form, Input, InputNumber } from "antd";
-import imgInput from '../images/BG.png'
+import imgInput from "../images/BG.png";
 
 export default function ContactUs() {
   /* eslint-disable no-template-curly-in-string */
@@ -29,20 +29,20 @@ export default function ContactUs() {
       <div className="container container-contactus ">
         <div className="row">
           <div className="col-10 m-auto">
-            <div className="row">
-              <div className="col-6 container-input">
-                <h1 className="mt-5 mb-5">CONTACT US</h1>
-                <p className="mb-5">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form.
-                </p>
-                <Form
-                  name="nest-messages"
-                  onFinish={onFinish}
-                  style={{ maxWidth: 600 }}
-                  validateMessages={validateMessages}
-                >
+            <Form
+              name="nest-messages"
+              onFinish={onFinish}
+              validateMessages={validateMessages}
+            >
+              <div className="row">
+                <div className="col-6 container-input">
+                  <h1 className="mt-5 mb-5">CONTACT US</h1>
+                  <p className="mb-5">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </p>
+
                   <div className="row input-contactus">
                     <div className="col-6">
                       <label>
@@ -52,7 +52,7 @@ export default function ContactUs() {
                         name={["user", "name"]}
                         rules={[{ required: true }]}
                       >
-                        <Input className="w-100" placeholder="joe smith" />
+                        <Input className="w-100" placeholder="joe smith" id="input-centent-contact"  />
                       </Form.Item>
 
                       <label>
@@ -60,12 +60,15 @@ export default function ContactUs() {
                       </label>
                       <Form.Item
                         name={["user", "phone"]}
-                        rules={[{ type: "number", min: 10, max: 99, required: true  }]}
+                        rules={[
+                          { type: "number", min: 10, max: 99, required: true },
+                        ]}
                       >
                         <InputNumber
                           type="number"
                           className="w-100"
                           placeholder="123 123 123"
+                          id="input-centent-contact" 
                         />
                       </Form.Item>
                       <label>
@@ -73,9 +76,11 @@ export default function ContactUs() {
                       </label>
                       <Form.Item
                         name={["user", "quantity"]}
-                        rules={[{ type: "number", min: 0, max: 99, required: true  }]}
+                        rules={[
+                          { type: "number", min: 0, max: 99, required: true },
+                        ]}
                       >
-                        <InputNumber className="w-100" placeholder="quantity" />
+                        <InputNumber className="w-100" placeholder="quantity" id="input-centent-contact"  />
                       </Form.Item>
                     </div>
                     <div className="col-6">
@@ -86,7 +91,7 @@ export default function ContactUs() {
                         name={["user", "email"]}
                         rules={[{ type: "email", required: true }]}
                       >
-                        <Input placeholder="you@company.com" />
+                        <Input placeholder="you@company.com" id="input-centent-contact"  />
                       </Form.Item>
                       <label>
                         Requested Completion Date <>*</>
@@ -95,43 +100,49 @@ export default function ContactUs() {
                         name={["user", "date"]}
                         rules={[{ type: "date", required: true }]}
                       >
-                        <Input type="date" />
+                        <Input type="date" id="input-centent-contact"  />
                       </Form.Item>
                       <label>
-                        Company/Project Name <span className="text-danger">*</span>
+                        Company/Project Name{" "}
+                        <span className="text-danger">*</span>
                       </label>
                       <Form.Item
                         name={["user", "projectName"]}
                         rules={[{ required: true }]}
                       >
-                        <Input className="w-100" placeholder="project title" />
-                      </Form.Item>
-                    </div>
-                    <div className="description">
-                      <label>
-                        Project Description <span className="text-danger">*</span>
-                      </label>
-                      <Form.Item name={["user", "description"]}  rules={[{ required: true }]}>
-                        <Input.TextArea className="w-100 h-20px" />
+                        <Input className="w-100" placeholder="project title" id="input-centent-contact" />
                       </Form.Item>
                     </div>
 
-                    <Form.Item className="mt-5">
+
+                  </div>
+                </div>
+                <div className="col-6">
+                  <img src={imgInput} alt="" className="w-100 img-backgroud-contact-content" />
+                </div>
+                <div className="description col-12">
+                      <label>
+                        Project Description{" "}
+                        <span className="text-danger">*</span>
+                      </label>
+                      <Form.Item
+                        name={["user", "description"]}
+                        rules={[{ required: true }]}
+                      >
+                        <Input.TextArea className="w-100" />
+                      </Form.Item>
+                    </div>
+                    <Form.Item className="mt-3 your-agree text-center">
                       <input type="checkbox" />
                       <label>You agree to our friendly privacy policy.</label>
                     </Form.Item>
-                    <Form.Item>
-                      <Button type="primary" htmlType="submit">
+                    <Form.Item className="text-center">
+                      <Button type="primary" htmlType="submit" id="btn-send-msg" >
                         Send message
                       </Button>
                     </Form.Item>
-                  </div>
-                </Form>
               </div>
-              <div className="col-6">
-                <img src={imgInput} alt="" className="w-100" />
-              </div>
-            </div>
+            </Form>
           </div>
         </div>
       </div>

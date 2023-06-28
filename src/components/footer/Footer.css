@@ -58,3 +58,104 @@
   border: 2px solid #1668b2;
   background-color: none;
 }
+@media (max-width: 576px) {
+  .footer-container p{
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .footer-container h1{
+    font-size: 13px;
+  }
+  .footer-container img{
+    width: 30px;
+  }
+  .contact-info{
+    margin-top: 0;
+  }
+  .footer-container .title-input{
+    font-size: 13px !important;
+    margin-top: 0px !important;
+
+  }
+  .footer-container .input{
+    height: 10px;
+  }
+  .footer-container .input-message{
+    height: 15px;
+  }
+  .btn-send{
+    margin-top: 10px !important;
+    width: 100px !important;
+    padding: 3px 7px 3px 7px;
+  }
+  .sf-technoloies{
+    margin-top: 5px !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .footer-container p{
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .footer-container h1{
+    font-size: 13px;
+  }
+  .footer-container img{
+    width: 30px;
+  }
+  .contact-info{
+    margin-top: 0;
+  }
+  .footer-container .title-input{
+    font-size: 13px !important;
+    margin-top: 0px !important;
+
+  }
+  .footer-container .input{
+    height: 10px;
+  }
+  .footer-container .input-message{
+    height: 15px;
+  }
+  .btn-send{
+    margin-top: 10px !important;
+    width: 100px !important;
+    padding: 3px 7px 3px 7px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .footer-container p{
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .footer-container h1{
+    font-size: 13px;
+  }
+  .footer-container img{
+    width: 30px;
+  }
+  .contact-info{
+    margin-top: 0;
+  }
+  .footer-container .title-input{
+    font-size: 13px !important;
+    margin-top: 0px !important;
+
+  }
+  .footer-container .input{
+    height: 10px;
+  }
+  .footer-container .input-message{
+    height: 15px;
+  }
+  .btn-send{
+    margin-top: 10px !important;
+    width: 100px !important;
+    padding: 3px 7px 3px 7px;
+  }
+}
+
+@media (min-width: 1200px) {
+}

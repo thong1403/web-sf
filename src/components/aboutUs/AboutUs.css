@@ -44,3 +44,91 @@ letter-spacing: 0.5px;
 text-align: center;
 color: white;
 }
+@media (max-width: 576px) {
+    .container-content p{
+        font-size: 10px;
+        line-height: 10px;
+
+    }
+    .row-conten-about-us{
+        margin-top: 3rem;
+    }
+    .build-website h1{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .build-website p{
+        font-size: 7px;
+        line-height: 15px;
+
+    }
+    .router-page{
+        margin-top: -11rem !important;
+    }
+    .title-about-us{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    .container-content p{
+        font-size: 15px;
+        line-height: 15px;
+
+    }
+    .row-conten-about-us{
+        margin-top: 3rem;
+    }
+    .build-website h1{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .build-website p{
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+    .router-page{
+        margin-top: -11rem !important;
+    }
+    .title-about-us{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    .container-content p{
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+    .row-conten-about-us{
+        margin-top: 3rem;
+    }
+    .build-website h1{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .build-website p{
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+    .router-page{
+        margin-top: -11rem !important;
+    }
+    .title-about-us{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .router-page {
+        margin-top: -12rem !important;
+    }
+  }
