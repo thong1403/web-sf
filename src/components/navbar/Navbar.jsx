@@ -1,9 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../images/sf-logo-1 1.png";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
+  const [selectedElement, setSelectedElement] = useState(null);
+
+  useEffect(() => {
+    const element = document.getElementById("click");
+    if (element) {
+      element.addEventListener("click", handleClick);
+    }
+
+    return () => {
+      if (element) {
+        element.removeEventListener("click", handleClick);
+      }
+    };
+  }, []);
+
+  const handleClick = (event) => {
+    const clickedElement = event.target;
+    if (clickedElement && clickedElement.style) {
+      if (selectedElement) {
+        selectedElement.style.fontWeight = "normal"; 
+      }
+      clickedElement.style.fontWeight = "bold"; 
+      setSelectedElement(clickedElement); 
+    }
+  };
+
   return (
     <>
       <nav class="navbar">
@@ -11,59 +37,59 @@ export default function Navbar() {
           <div class="main-content">
             <div class="container container--full-width container--flex container--flex--space-between">
               <div class="logo-container">
-                <Link to='/web-sf'>
-                <img src={logo} alt="" className="logo-sf-tech" />
+                <Link to="/web-sf">
+                  <img src={logo} alt="" className="logo-sf-tech" />
                 </Link>
               </div>
               <div class="menu-container">
                 <ul class="menu">
-                  <li class="menu__item menu__item--main">
+                  <li class="menu__item menu__item--main" onClick={handleClick}>
                     <Link to="#">
                       <span
                         class="menu__item__expandable-link"
-                        id="services-option"
+                        id="services-option click"
                       >
                         Services
                       </span>
                     </Link>
                   </li>
-                  <li class="menu__item menu__item--main">
+                  <li class="menu__item menu__item--main" onClick={handleClick}>
                     <Link to="/Industries">
                       <span
                         class="menu__item__expandable-link"
-                        id="industries-option"
+                        id="industries-option click"
                       >
                         Industries
                       </span>{" "}
                     </Link>
                   </li>
-                  <li class="menu__item menu__item--main">
+                  <li class="menu__item menu__item--main" onClick={handleClick}>
                     <Link to="/aboutus">
                       <a
                         class="menu__item__link menu__item__expandable-link"
                         href="/portfolio/"
-                        id="portfolio-option"
+                        id="portfolio-option click"
                       >
                         About Us
                       </a>
                     </Link>
                   </li>
-                  <li class="menu__item menu__item--main">
-                    <Link to="#">
+                  <li class="menu__item menu__item--main" onClick={handleClick}>
+                    <Link to="/Recruitment">
                       <a
                         class="menu__item__link menu__item__expandable-link"
                         href="/products/"
-                        id="r-and-d-option"
+                        id="r-and-d-option click"
                       >
                         Recruitment
                       </a>
                     </Link>
                   </li>
-                  <li class="menu__item menu__item--main">
+                  <li class="menu__item menu__item--main" onClick={handleClick}>
                     <Link to="contactus">
                       <span
                         class="menu__item__expandable-link"
-                        id="company-option"
+                        id="company-option click"
                       >
                         Contact us
                       </span>
@@ -81,13 +107,10 @@ export default function Navbar() {
                     </span>
                     <div class="language-dropdown">
                       <a href="/sf-tech-web" class="language-dropdown__option">
-                        KR
+                        VI
                       </a>
                       <a href="/sf-tech-web" class="language-dropdown__option">
-                        JP
-                      </a>
-                      <a href="/sf-tech-web" class="language-dropdown__option">
-                        ZH
+                        EN
                       </a>
                     </div>
                   </li>

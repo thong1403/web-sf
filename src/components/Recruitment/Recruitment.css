@@ -1,0 +1,21 @@
+.container-we-are {
+  height: 110px;
+  gap: 10px;
+  background: #18acea;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.container-we-are h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: white;
+}
+
+

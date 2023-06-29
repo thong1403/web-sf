@@ -8,6 +8,7 @@ import Industries from "../Industries/Industries";
 import HomePage from "./../homePage/HomePage";
 import './Home.css'
 import Services from './../services/Services';
+import Recruitment from "../Recruitment/Recruitment";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/Industries" element={<Industries />} />
+          <Route path="/Recruitment" element={<Recruitment/>}/>
         </Routes>
       </div>
 

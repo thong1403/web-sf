@@ -2217,7 +2217,7 @@ html {
     flex-direction: column;
     top: 7rem;
     left: .01rem;
-    background: #1668b2;
+    background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height .65s cubic-bezier(.4,0,.2,1);
@@ -2234,7 +2234,7 @@ html {
 }
 
 .menu__item--language .language-dropdown__option {
-    color: hsla(0,0%,100%,.5);
+    color: hsla(0, 0%, 0%, 1);
     padding: 1.3rem 5rem 1.3rem 2.5rem;
     text-decoration: none
 }
@@ -2245,7 +2245,8 @@ html {
 
 .menu__item--language .language-dropdown__option:hover {
     cursor: pointer;
-    color: #fff
+    color: black;
+    font-weight: 800;
 }
 
 @media screen and (min-width: 992px) {
@@ -3333,7 +3334,6 @@ body {
 body * {
     color: inherit;
     font-size: inherit;
-    font-family: inherit;
     line-height: inherit;
     -webkit-text-size-adjust: inherit;
     -moz-text-size-adjust: inherit;
@@ -4246,4 +4246,7 @@ img {
 .navbar{
     background: #0000004D;
     height: 101px;
+}
+.navbar:hover {
+    background-color: #2e2d2d !important;
 }
