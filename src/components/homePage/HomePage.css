@@ -107,13 +107,17 @@ color: white;
   position: relative;
   height: 140rem;
 }
-@media (max-width: 576px) {
+@media (max-width:412px) {
   .container-backgroud-img h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
   }
+  .title-services{
+    font-size: 2rem;
+    margin-bottom: 1rem !important;
+  }
   .container-backgroud-img p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-top: -20px !important;
     margin-bottom: 3px;
   }
@@ -128,7 +132,7 @@ color: white;
     font-size: 2rem;
   }
   .container-content-home li{
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 15px;
   }
   .container-content-home button{
@@ -144,5 +148,193 @@ color: white;
   }
   .container-services-content h2{
     font-size: 1rem;
+  } 
+  .container-services-content p{
+    font-size: 0.6rem;
+  }
+  .container-services-content .text-content{
+    padding-top: 2rem;
+  }
+  .total-frame-contains-content{
+    height: 130rem;
+  }
+}
+@media (min-width: 413px) and (max-width: 576px) {
+  .container-backgroud-img h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .container-backgroud-img p{
+    font-size: 0.8rem;
+    margin-top: -20px !important;
+    margin-bottom: 3px;
+  }
+  .container-backgroud-img button{
+    width: 30%;
+    font-size: 0.8rem;
+    height: 25px;
+    padding: 0 !important;
+    margin-top: 1px !important;
+  }
+  .container-content-home h1{
+    font-size: 2rem;
+  }
+  .container-content-home li{
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  .container-content-home button{
+    width: 10rem;
+    font-size: 1rem;
+  }
+  .container-services-content{
+    width: 50%;
+  }
+  .container-conten-services{
+    top: 10%;
+    left: 0;
+  }
+  .container-services-content h2{
+    font-size: 1rem;
+  } 
+  .container-services-content p{
+    font-size: 0.6rem;
+  }
+  .container-services-content .text-content{
+    padding-top: 4rem;
+  }
+  .total-frame-contains-content{
+    height: 118rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .container-backgroud-img h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .container-backgroud-img p{
+    font-size: 0.8rem;
+    margin-top: -20px !important;
+    margin-bottom: 3px;
+  }
+  .container-backgroud-img button{
+    width: 30%;
+    font-size: 0.8rem;
+    height: 25px;
+    padding: 0 !important;
+    margin-top: 1px !important;
+  }
+  .container-content-home h1{
+    font-size: 2rem;
+  }
+  .container-content-home li{
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  .container-content-home button{
+    width: 10rem;
+    font-size: 1rem;
+  }
+  .container-services-content{
+    width: 33%;
+  }
+  .container-conten-services{
+    top: 18%;
+  }
+  .container-services-content h2{
+    font-size: 1rem;
+  } 
+  .container-services-content p{
+    font-size: 0.6rem;
+  }
+  .container-services-content .text-content{
+    padding-top: 2rem;
+  }
+  .total-frame-contains-content{
+    height: 118rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 911px) {
+  .container-backgroud-img h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .container-backgroud-img p{
+    font-size: 0.8rem;
+    margin-top: -20px !important;
+    margin-bottom: 3px;
+  }
+  .container-backgroud-img button{
+    width: 30%;
+    font-size: 0.8rem;
+    height: 25px;
+    padding: 0 !important;
+    margin-top: 1px !important;
+  }
+  .container-content-home h1{
+    font-size: 2rem;
+  }
+  .container-content-home li{
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  .container-content-home button{
+    width: 10rem;
+    font-size: 1rem;
+  }
+  .container-services-content{
+    width: 33%;
+  }
+  .container-conten-services{
+    top: 17%;
+    left: 5%;
+  }
+  .container-services-content h2{
+    font-size: 1.1rem;
+  } 
+  .container-services-content p{
+    font-size: 1rem;
+  }
+  .container-services-content .text-content{
+    padding-top: 8rem;
+  }
+  .total-frame-contains-content{
+    height: 118rem;
+  }
+}
+@media (min-width: 912px) and (max-width: 999px){
+  .container-conten-services{
+    top: 15%;
+  }
+  .title-backgroud h1{
+    font-size: 5rem;
+  }
+  .title-backgroud button{
+    margin-top: 10px !important;
+  }
+  .container-services-content h2{
+    font-size: 1.2rem;
+  }
+
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .container-conten-services{
+    left: 3rem;
+    top: 20%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container-conten-services{
+    left: 5rem;
+    top: 25%;
+  }
+  .container-backgroud-img div{
+    left: 7%;
+  }
+}
+@media (min-width: 1400px) {
+
+  .container-services-content{
+    width: 33%;
   }
 }
