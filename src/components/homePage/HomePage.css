@@ -69,9 +69,10 @@
   padding: 10px;
   border-radius: 5px;
   gap: 10px;
-  padding-top: 8rem;
+  padding-top: 10rem;
   background: #e8f4ff;
 }
+
 .container-services-content {
   border-radius: 5px;
   padding: 20px;
@@ -97,20 +98,50 @@ letter-spacing: 0em;
 text-align: center;
 color: white;
 }
-.container-conten-services{
-  position: absolute;
-  top: 35%;
-  left: 12%;
- display: block;
+.container-title-services{
+  background: #18ACEA;
+height: 110px;
+padding: 20px;
+border-radius: 5px;
+gap: 10px;
+
 }
-.total-frame-contains-content{
-  position: relative;
-  height: 140rem;
+.btn-contact-us{
+  width: 270px;
+height: 70px;
+padding: 15px 20px 15px 20px;
+border-radius: 10px;
+gap: 10px;
+background: #25AAE1;
+color: white !important;
+border: none !important;
+float: right;
+}
+
+.container-content-home .container-title{
+  background-color: #25AAE1;
+  color: white;
+  height: 110px;
+  padding-top: 1px;
+}
+.container-content-furuter p{
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  text-align: justified;
+  color: #979797;
+  
 }
 @media (max-width:412px) {
   .container-backgroud-img h1{
     font-size: 1.5rem;
     margin-top: 1rem;
+  }
+  .container-content-furuter p{
+    font-size: 0.5rem;
+    line-height: 15px;
   }
   .title-services{
     font-size: 2rem;
@@ -142,10 +173,6 @@ color: white;
   .container-services-content{
     width: 50%;
   }
-  .container-conten-services{
-    top: 10%;
-    left: 0;
-  }
   .container-services-content h2{
     font-size: 1rem;
   } 
@@ -156,12 +183,12 @@ color: white;
     padding-top: 2rem;
   }
   .total-frame-contains-content{
-    height: 130rem;
+    height: 145rem;
   }
 }
 @media (min-width: 413px) and (max-width: 576px) {
   .container-backgroud-img h1{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 1rem;
   }
   .container-backgroud-img p{
@@ -180,8 +207,12 @@ color: white;
     font-size: 2rem;
   }
   .container-content-home li{
-    font-size: 1rem;
-    line-height: 15px;
+    font-size: 0.8rem;
+    line-height: 10px;
+  }
+  .container-content-furuter p{
+    font-size: 1.3rem;
+    line-height: 2rem;
   }
   .container-content-home button{
     width: 10rem;
@@ -189,10 +220,6 @@ color: white;
   }
   .container-services-content{
     width: 50%;
-  }
-  .container-conten-services{
-    top: 10%;
-    left: 0;
   }
   .container-services-content h2{
     font-size: 1rem;
@@ -204,7 +231,7 @@ color: white;
     padding-top: 4rem;
   }
   .total-frame-contains-content{
-    height: 118rem;
+    height: 135rem;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -237,9 +264,6 @@ color: white;
   }
   .container-services-content{
     width: 33%;
-  }
-  .container-conten-services{
-    top: 18%;
   }
   .container-services-content h2{
     font-size: 1rem;
@@ -285,10 +309,7 @@ color: white;
   .container-services-content{
     width: 33%;
   }
-  .container-conten-services{
-    top: 17%;
-    left: 5%;
-  }
+
   .container-services-content h2{
     font-size: 1.1rem;
   } 
@@ -299,13 +320,11 @@ color: white;
     padding-top: 8rem;
   }
   .total-frame-contains-content{
-    height: 118rem;
+    height: 140rem;
   }
 }
 @media (min-width: 912px) and (max-width: 999px){
-  .container-conten-services{
-    top: 15%;
-  }
+
   .title-backgroud h1{
     font-size: 5rem;
   }
@@ -324,10 +343,6 @@ color: white;
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
-  .container-conten-services{
-    left: 5rem;
-    top: 25%;
-  }
   .container-backgroud-img div{
     left: 7%;
   }
@@ -336,5 +351,8 @@ color: white;
 
   .container-services-content{
     width: 33%;
+  }
+  .container-backgroud-img div{
+    top: 27%;
   }
 }

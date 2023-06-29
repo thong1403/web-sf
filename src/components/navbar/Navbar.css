@@ -4243,3 +4243,7 @@ img {
         line-height: 2.1rem
     }
 }
+.navbar{
+    background: #0000004D;
+    height: 101px;
+}
