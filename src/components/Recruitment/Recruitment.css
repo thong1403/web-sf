@@ -17,5 +17,37 @@
   text-align: center;
   color: white;
 }
+.container-information{
+  max-width:  32% ;
+  flex: 30%;
+}
+@media (max-width: 400px) {
+  .title-industries{
+    font-size: 2rem !important;
+    margin-top: 22px;
 
+  }
+  .container-information {
+    max-width: 48% !important;
+    flex: 40%;
+  }
+  .container-we-are img{
+    width: 30px;
 
+  }
+}
+@media (min-width: 401px) and (max-width: 576px) {
+  .title-industries{
+    font-size: 2rem !important;
+    margin-top: 22px;
+
+  }
+  .container-information {
+    max-width: 48% !important;
+    flex: 40%;
+  }
+  .container-we-are img{
+    width: 30px;
+
+  }
+}

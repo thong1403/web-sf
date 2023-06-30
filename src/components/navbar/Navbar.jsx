@@ -23,10 +23,10 @@ export default function Navbar() {
     const clickedElement = event.target;
     if (clickedElement && clickedElement.style) {
       if (selectedElement) {
-        selectedElement.style.fontWeight = "normal"; 
+        selectedElement.style.fontWeight = "normal";
       }
-      clickedElement.style.fontWeight = "bold"; 
-      setSelectedElement(clickedElement); 
+      clickedElement.style.fontWeight = "bold";
+      setSelectedElement(clickedElement);
     }
   };
 
@@ -42,9 +42,9 @@ export default function Navbar() {
                 </Link>
               </div>
               <div class="menu-container">
-                <ul class="menu">
+                <ul className="navbar-menu" id="menu-navbar">
                   <li class="menu__item menu__item--main" onClick={handleClick}>
-                    <Link to="#">
+                    <Link to="/services">
                       <span
                         class="menu__item__expandable-link"
                         id="services-option click"
@@ -106,10 +106,10 @@ export default function Navbar() {
                       </i>
                     </span>
                     <div class="language-dropdown">
-                      <a href="/sf-tech-web" class="language-dropdown__option">
+                      <a href="/web-sf" class="language-dropdown__option">
                         VI
                       </a>
-                      <a href="/sf-tech-web" class="language-dropdown__option">
+                      <a href="/web-sf" class="language-dropdown__option">
                         EN
                       </a>
                     </div>
@@ -118,12 +118,6 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <input id="mobileMenu" type="checkbox" />
-          <label for="mobileMenu" class="mobile-hambuger">
-            <div class="hambuger-button hambuger-button--mobile">
-              <span></span> <span></span> <span></span> <span></span>
-            </div>
-          </label>
         </div>
         <div class="navbar__mobile-menu">
           <div class="mask-navbar container container--full-width container--flex container--flex--space-between">

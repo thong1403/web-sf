@@ -5,7 +5,7 @@
 .container-backgroud-img div {
   position: absolute;
   top: 23%;
-  left: 12%;
+  left: 16%;
 }
 .container-backgroud-img h1 {
   font-family: Inter;
@@ -139,12 +139,18 @@ float: right;
   
 }
 @media (max-width:412px) {
+  .container-content-home .container-title{
+    padding-top: 2rem;
+  }
+  .container-content-furuter{
+    margin-bottom: 5px !important;
+  }
   .container-backgroud-img h1{
     font-size: 1.5rem;
     margin-top: 1rem;
   }
   .container-content-furuter p{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     line-height: 15px;
   }
   .title-services{
@@ -174,9 +180,7 @@ float: right;
     width: 10rem;
     font-size: 1rem;
   }
-  .container-services-content{
-    width: 50%;
-  }
+
   .container-services-content h2{
     font-size: 1rem;
   } 
@@ -189,8 +193,40 @@ float: right;
   .total-frame-contains-content{
     height: 145rem;
   }
+  .container-backgroud-img p{
+    line-height: 10px;
+    font-size: 0.5rem;
+  }
+  .container-backgroud-img h1{
+    font-size: 1rem;
+    line-height: 13px;
+  }
+  .container-backgroud-img button{
+    font-size: 0.5rem;
+  }
+  .container-services-content{
+    max-width: 50%;
+    flex: 50%;
+  }
+  .container-backGroud-title h1{
+    font-size: 3.5rem;
+    line-height: 35px;
+}
+.container-backGroud-title div{
+    left: 5%;
+}
+.container-backgroud-img div{
+  left: 6%;
+}
 }
 @media (min-width: 413px) and (max-width: 576px) {
+  .container-backgroud-img div{
+    left: 7%;
+  }
+  .container-services-content{
+    max-width: 50%;
+    flex: 50%;
+  }
   .container-backgroud-img h1{
     font-size: 2rem;
     margin-top: 1rem;
@@ -199,6 +235,7 @@ float: right;
     font-size: 0.8rem;
     margin-top: -20px !important;
     margin-bottom: 3px;
+    line-height: 10px;
   }
   .container-backgroud-img button{
     width: 30%;
@@ -235,13 +272,17 @@ float: right;
     padding-top: 4rem;
   }
   .total-frame-contains-content{
-    height: 135rem;
+    height: 145rem;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
   .container-backgroud-img h1{
     font-size: 3rem;
     margin-top: 1rem;
+  }
+  .container-backgroud-img div{
+    left: 8%;
+    top: 30%;
   }
   .container-backgroud-img p{
     font-size: 0.8rem;
@@ -276,13 +317,13 @@ float: right;
     font-size: 0.6rem;
   }
   .container-services-content .text-content{
-    padding-top: 2rem;
+    padding-top: 4rem;
   }
   .total-frame-contains-content{
     height: 118rem;
   }
 }
-@media (min-width: 768px) and (max-width: 911px) {
+@media (min-width: 769px) and (max-width: 912px) {
   .container-backgroud-img h1{
     font-size: 3rem;
     margin-top: 1rem;
@@ -321,13 +362,17 @@ float: right;
     font-size: 1rem;
   }
   .container-services-content .text-content{
-    padding-top: 8rem;
+    padding-top: 6rem;
   }
   .total-frame-contains-content{
     height: 140rem;
   }
+  .container-backgroud-img div{
+    top: 33%;
+    left: 13%;
+  }
 }
-@media (min-width: 912px) and (max-width: 999px){
+@media (min-width: 913px) and (max-width: 999px){
 
   .title-backgroud h1{
     font-size: 5rem;
@@ -344,6 +389,18 @@ float: right;
   .container-conten-services{
     left: 3rem;
     top: 20%;
+  }
+  .container-backgroud-img div{
+    left: 6%;
+    top: 30%;
+  }
+  .title-backgroud h1{
+    font-size: 4rem;
+    margin-top: 20px;
+  }
+  .title-backgroud p{
+    font-size: 1.5rem;
+    line-height: 20px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {

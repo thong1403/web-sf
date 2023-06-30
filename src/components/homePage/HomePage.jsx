@@ -85,7 +85,7 @@ export default function HomePage() {
                 </p>
               </div>
               <div className="col-6 text-right">
-                <button className="btn-contact-us">
+                <button className="btn-contact-us mt-5">
                   Contact Us
                 </button>
               </div>

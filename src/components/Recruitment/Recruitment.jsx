@@ -12,14 +12,11 @@ export default function Recruitment() {
       <div className="container">
         <div className="row">
           <div className="container-we-are">
-            <h1 className=" title-industries text-center mb-5">
+            <h1 className=" title-industries text-center mb-5 d-flex align-items-center">
               We are hiring
             </h1>
             <img src={search} alt="" />
           </div>
-          <h2 className="title-join">
-            dfdfdfdffdsd
-          </h2>
           <div className="col-12">
             <div className="row">
               <div className="col-4 container-information">
