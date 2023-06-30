@@ -117,8 +117,25 @@ text-align: left;
     .ant-form-item-explain-error{
         display: none;
     }
+    .img-container-contact-us-col-6{
+        display: none;
+    }
+    .container-input{
+        max-width: 100%;
+        flex: 100%;
+    }
+    #btn-send-msg{
+        font-size: 1rem;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px) {
+    .img-container-contact-us-col-6{
+        display: none;
+    }
+    .container-input{
+        max-width: 100%;
+        flex: 100%;
+    }
     .container-input h1{
         font-size: 1.5rem;
         margin-top: 5px !important;
@@ -159,6 +176,13 @@ text-align: left;
     }
 }
 @media (min-width: 768px) and (max-width: 1000px) {
+    .img-container-contact-us-col-6{
+        display: none;
+    }
+    .container-input{
+        max-width: 100%;
+        flex: 100%;
+    }
     .container-input h1{
         font-size: 2rem;
         margin-top: 5px !important;

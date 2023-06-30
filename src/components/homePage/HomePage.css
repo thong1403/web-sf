@@ -139,9 +139,18 @@ float: right;
   
 }
 @media (max-width:412px) {
-  .container-content-home .container-title{
-    padding-top: 2rem;
+  .container-title h1{
+    margin-top: 0 !important;
   }
+  .container-content-home .container-title{
+    height: 50px;
+    padding-top: 20px;
+  }
+  .container-title-services{
+    height: 62px;
+    padding: 0;
+  }
+
   .container-content-furuter{
     margin-bottom: 5px !important;
   }
@@ -223,13 +232,28 @@ float: right;
   .container-backgroud-img div{
     left: 7%;
   }
+  .title-home{
+    margin-top: 20px;
+  }
+  .container-title-services{
+    height: 60px;
+    padding: 0;
+  }
+  .title-services{
+    font-size: 3rem;
+
+  }
+  .container-content-home .container-title{
+    height: 60px;
+  }
   .container-services-content{
     max-width: 50%;
     flex: 50%;
   }
   .container-backgroud-img h1{
-    font-size: 2rem;
-    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 10px;
+    margin-top: 2rem;
   }
   .container-backgroud-img p{
     font-size: 0.8rem;
@@ -244,8 +268,8 @@ float: right;
     padding: 0 !important;
     margin-top: 1px !important;
   }
-  .container-content-home h1{
-    font-size: 2rem;
+  .title-home{
+    font-size: 2rem !important;
   }
   .container-content-home li{
     font-size: 0.8rem;
@@ -275,7 +299,7 @@ float: right;
     height: 145rem;
   }
 }
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .container-backgroud-img h1{
     font-size: 3rem;
     margin-top: 1rem;
@@ -391,7 +415,7 @@ float: right;
     top: 20%;
   }
   .container-backgroud-img div{
-    left: 6%;
+    left: 11%;
     top: 30%;
   }
   .title-backgroud h1{

@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="footer-container">
         <div className="container">
           <div className="row mb-5 pt-5 ">
-            <div className="col-8">
+            <div className="col-8 information">
               <img src={logo} alt="" />
               <div className="contact-info">
                 <h1>Address</h1>
@@ -24,12 +24,8 @@ export default function Footer() {
                 <p>admin@sf-technologiesgroup.com</p>
               </div>
             </div>
-            <div className="col-4 contact-info">
+            <div className="col-4 contact-info-information">
               <h1>MESSAGE</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Architecto distinctio magni iusto?
-              </p>
               <div>
                 <form>
                   <h2 className="fs-3 title-input">Name</h2>

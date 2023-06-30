@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import { Link } from "react-router-dom";
 import img1 from "../images/Group 8 (3).png";
 import imageContent from "../images/Group 7.png";
 
@@ -17,14 +18,14 @@ export default function HomePage() {
             Let <br /> our engineers walk you through any challenges with deep
             expertise <br /> & great experience.
           </p>
-          <button className="mt-5">Read more</button>
+          <button className="mt-5"> Read more</button>
         </div>
       </div>
       <div className="container">
         <div className="row">
           <div className="col-12 container-content-home">
             <div className="container-title mt-5 mb-5">
-              <h1 className="text-center title-home mt-5 mb-5">
+              <h1 className="text-center title-home mb-5">
                 Future SF-Technologies
               </h1>
             </div>
@@ -85,9 +86,12 @@ export default function HomePage() {
                 </p>
               </div>
               <div className="col-6 text-right">
+                <Link to='/contactus'>
                 <button className="btn-contact-us mt-5">
                   Contact Us
                 </button>
+                </Link>
+
               </div>
             </div>
           </div>

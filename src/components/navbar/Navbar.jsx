@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import logo from "../images/sf-logo-1 1.png";
+import logo from "../images/CF_1-01.png";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -17,7 +17,7 @@ export default function Navbar() {
         element.removeEventListener("click", handleClick);
       }
     };
-  }, []);
+  },[]);
 
   const handleClick = (event) => {
     const clickedElement = event.target;
@@ -38,7 +38,7 @@ export default function Navbar() {
             <div class="container container--full-width container--flex container--flex--space-between">
               <div class="logo-container">
                 <Link to="/web-sf">
-                  <img src={logo} alt="" className="logo-sf-tech" />
+                  <img src={logo} alt="" className="logo-sf-tech w-100" />
                 </Link>
               </div>
               <div class="menu-container">

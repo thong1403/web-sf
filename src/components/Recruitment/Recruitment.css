@@ -27,6 +27,13 @@
     margin-top: 22px;
 
   }
+  .container-we-are h1{
+    line-height: 0;
+    
+  }
+  .container-we-are{
+    height: 60px;
+  }
   .container-information {
     max-width: 48% !important;
     flex: 40%;
@@ -41,6 +48,13 @@
     font-size: 2rem !important;
     margin-top: 22px;
 
+  }
+  .container-we-are h1{
+    line-height: 0;
+    
+  }
+  .container-we-are{
+    height: 60px;
   }
   .container-information {
     max-width: 48% !important;

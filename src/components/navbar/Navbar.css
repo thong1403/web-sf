@@ -2215,7 +2215,6 @@ html {
     display: flex;
     flex-direction: column;
     top: 3rem;
-    left: .01rem;
     background-color: white;
     max-height: 0;
     overflow: hidden;
@@ -4241,6 +4240,9 @@ img {
         display: block;
         line-height: 2.1rem
     }
+    #menu-navbar li{
+        font-size: 1rem;
+    }
 }
 .navbar{
     background: #0000004D;
@@ -4249,10 +4251,11 @@ img {
 .navbar:hover {
     background-color: #2e2d2d !important;
 }
+
 @media (max-width: 576px) {
     .logo-sf-tech{
         width: 1rem;
-        height: 1rem;
+        height: 3rem;
     }
     .navbar{
         height: 38px;
@@ -4270,12 +4273,27 @@ img {
         margin-top: 5rem !important;
         margin-bottom: 5rem !important;
     }
+    #menu-navbar li{
+        font-size: 0.5rem;
+    }
 
 }
 
 @media (max-width: 400px) {
-    .navbar-menu li{
-        font-size: 0.3rem;
+    #menu-navbar li{
+        font-size: 0.5rem;
+    }
+    #menu-navbar{
+        font-size: 0.8rem;
+    }
+    .current-language{
+        font-size: 0.8rem;
+    }
+    .current-language__icon--expand{
+        font-size: 0.8rem;
+    }
+    .menu__item--language .current-language{
+        padding: 0 !important;
     }
 }
 .navbar-menu{

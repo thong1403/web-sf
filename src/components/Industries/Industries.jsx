@@ -19,25 +19,25 @@ export default function Industries() {
           <div className="col-1"></div>
           <div className="col-10">
           <div >
-            <img src={imgIndustres} alt="" className="w-100 img-backGrod" />
+            <img src={imgIndustres} alt="" className="w-100 img-backGrod-content-industries mt-5 mb-5" />
           </div>
             <div className="row">
-              <div className="col-4">
+              <div className="col-4 img-content-industries">
                 <img src={img2} alt="" className="w-100" />
               </div>
-              <div className="col-4">
+              <div className="col-4 img-content-industries">
                 <img src={img3} alt="" className="w-100" />
               </div>
-              <div className="col-4">
+              <div className="col-4 img-content-industries">
                 <img src={img4} alt="" className="w-100" />
               </div>
-              <div className="col-4">
+              <div className="col-4 img-content-industries">
                 <img src={img5} alt="" className="w-100" />
               </div>
-              <div className="col-4">
+              <div className="col-4 img-content-industries">
                 <img src={img6} alt="" className="w-100" />
               </div>
-              <div className="col-4">
+              <div className="col-4 img-content-industries">
                 <img src={img1} alt="" className="w-100" />
               </div>
             </div>

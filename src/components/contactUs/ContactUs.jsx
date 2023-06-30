@@ -52,7 +52,7 @@ export default function ContactUs() {
                         name={["user", "name"]}
                         rules={[{ required: true }]}
                       >
-                        <Input className="w-100" placeholder="joe smith" id="input-centent-contact"  />
+                        <Input className="w-100" id="input-centent-contact"  />
                       </Form.Item>
 
                       <label>
@@ -67,7 +67,6 @@ export default function ContactUs() {
                         <InputNumber
                           type="number"
                           className="w-100"
-                          placeholder="123 123 123"
                           id="input-centent-contact" 
                         />
                       </Form.Item>
@@ -80,7 +79,7 @@ export default function ContactUs() {
                           { type: "number", min: 0, max: 99, required: true },
                         ]}
                       >
-                        <InputNumber className="w-100" placeholder="quantity" id="input-centent-contact"  />
+                        <InputNumber className="w-100"  id="input-centent-contact"  />
                       </Form.Item>
                     </div>
                     <div className="col-6">
@@ -91,7 +90,7 @@ export default function ContactUs() {
                         name={["user", "email"]}
                         rules={[{ type: "email", required: true }]}
                       >
-                        <Input placeholder="you@company.com" id="input-centent-contact"  />
+                        <Input  id="input-centent-contact"  />
                       </Form.Item>
                       <label>
                         Requested Completion Date <>*</>
@@ -110,14 +109,14 @@ export default function ContactUs() {
                         name={["user", "projectName"]}
                         rules={[{ required: true }]}
                       >
-                        <Input className="w-100" placeholder="project title" id="input-centent-contact" />
+                        <Input className="w-100"  id="input-centent-contact" />
                       </Form.Item>
                     </div>
 
 
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-6 img-container-contact-us-col-6">
                   <img src={imgInput} alt="" className="w-100 img-backgroud-contact-content" />
                 </div>
                 <div className="description col-12">

@@ -1,5 +1,6 @@
 import React from "react";
 import imgBackGroud from "../images/Group 8 (6).png";
+import { Link } from "react-router-dom";
 import "./Services.css";
 import img1 from "../images/digital-transformation-690x450-1 1.png";
 import img2 from "../images/digital-transformation-690x450-1 1 (1).png";
@@ -20,7 +21,9 @@ export default function Services() {
             empowering your business with top-certified IT talents and <br />{" "}
             innovative world-class service delivery.
           </p>
+          <Link to='/contactus'>
           <button className="mt-5">Contact Us</button>
+          </Link>
         </div>
       </div>
       <div className="container mt-5">
