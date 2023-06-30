@@ -126,7 +126,7 @@ float: right;
   background-color: #25AAE1;
   color: white;
   height: 110px;
-  padding-top: 1px;
+  padding-top: 30px;
 }
 .container-content-furuter p{
   font-family: Inter;
@@ -245,6 +245,7 @@ float: right;
   }
   .container-content-home .container-title{
     height: 60px;
+    padding-top: 5px;
   }
   .container-services-content{
     max-width: 50%;
@@ -346,11 +347,17 @@ float: right;
   .total-frame-contains-content{
     height: 118rem;
   }
+  .container-content-home .container-title{
+    padding-top: 40px;
+  }
 }
 @media (min-width: 769px) and (max-width: 912px) {
   .container-backgroud-img h1{
     font-size: 3rem;
     margin-top: 1rem;
+  }
+  .container-content-home .container-title{
+    padding-top: 40px;
   }
   .container-backgroud-img p{
     font-size: 0.8rem;
@@ -420,7 +427,7 @@ float: right;
   }
   .title-backgroud h1{
     font-size: 4rem;
-    margin-top: 20px;
+    margin-top: 25px;
   }
   .title-backgroud p{
     font-size: 1.5rem;

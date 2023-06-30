@@ -38,7 +38,7 @@ export default function Navbar() {
             <div class="container container--full-width container--flex container--flex--space-between">
               <div class="logo-container">
                 <Link to="/web-sf">
-                  <img src={logo} alt="" className="logo-sf-tech w-100" />
+                  <img src={logo} alt="" className="logo-sf-tech " />
                 </Link>
               </div>
               <div class="menu-container">

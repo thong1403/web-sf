@@ -84,6 +84,9 @@
   .container-information{
     width: 30%;
   }
+  .img-content-industries{
+    padding: 0 !important;
+  }
 }
 @media (min-width:768px) and (max-width:1000px) {
   .title-industries{
@@ -106,10 +109,17 @@
   }
   .container-information{
     width: 31%;
+    
+  }
+  .img-content-industries{
+    padding: 0 !important;
   }
 }
 @media (min-width:1000px) {
   .container-information{
     width: 31%;
+  }
+  .img-content-industries{
+    padding: 0 !important;
   }
 }
