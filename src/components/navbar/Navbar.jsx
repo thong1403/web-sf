@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import logo from "../images/CF_1-01.png";
+import logo from "../images/sf-logo-1 1.png";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -42,31 +42,28 @@ export default function Navbar() {
                 </Link>
               </div>
               <div class="menu-container">
-                <ul className="navbar-menu" id="menu-navbar">
-                  <li class="menu__item menu__item--main" onClick={handleClick}>
+                <ul className="navbar-menu " id="menu-navbar">
+                  <li class="menu__item" onClick={handleClick} id="li-hover">
                     <Link to="/services">
                       <span
-                        class="menu__item__expandable-link"
                         id="services-option click"
                       >
                         Services
                       </span>
                     </Link>
                   </li>
-                  <li class="menu__item menu__item--main" onClick={handleClick}>
+                  <li class="menu__item menu__item--main" onClick={handleClick} id="li-hover">
                     <Link to="/Industries">
                       <span
-                        class="menu__item__expandable-link"
                         id="industries-option click"
                       >
                         Industries
                       </span>{" "}
                     </Link>
                   </li>
-                  <li class="menu__item menu__item--main" onClick={handleClick}>
+                  <li class="menu__item menu__item--main" onClick={handleClick} id="li-hover">
                     <Link to="/aboutus">
                       <a
-                        class="menu__item__link menu__item__expandable-link"
                         href="/portfolio/"
                         id="portfolio-option click"
                       >
@@ -74,10 +71,9 @@ export default function Navbar() {
                       </a>
                     </Link>
                   </li>
-                  <li class="menu__item menu__item--main" onClick={handleClick}>
+                  <li class="menu__item menu__item--main" onClick={handleClick} id="li-hover">
                     <Link to="/Recruitment">
                       <a
-                        class="menu__item__link menu__item__expandable-link"
                         href="/products/"
                         id="r-and-d-option click"
                       >
@@ -85,10 +81,9 @@ export default function Navbar() {
                       </a>
                     </Link>
                   </li>
-                  <li class="menu__item menu__item--main" onClick={handleClick}>
+                  <li class="menu__item menu__item--main" onClick={handleClick} id="li-hover">
                     <Link to="contactus">
                       <span
-                        class="menu__item__expandable-link"
                         id="company-option click"
                       >
                         Contact us
@@ -107,7 +102,7 @@ export default function Navbar() {
                     </span>
                     <div class="language-dropdown">
                       <a href="/web-sf" class="language-dropdown__option">
-                        VI
+                        VN
                       </a>
                       <a href="/web-sf" class="language-dropdown__option">
                         EN

@@ -2138,12 +2138,18 @@ html {
 
 .menu__item__expandable-link,.menu__item__link {
     text-decoration: none;
-    border-bottom: 2px solid transparent
 }
 
 .menu__item__expandable-link:hover,.menu__item__link:hover {
     border-bottom: 2px solid #fff;
     cursor: pointer
+}
+a{
+        text-decoration: none !important; 
+        color: white !important; 
+}
+#li-hover:hover {
+    border-bottom: 2px solid white;
 }
 
 .menu__item--language {
@@ -2232,9 +2238,9 @@ html {
 }
 
 .menu__item--language .language-dropdown__option {
-    color: hsla(0, 0%, 0%, 1);
-    padding: 1.3rem 5rem 1.3rem 2.5rem;
-    text-decoration: none
+    color: hsla(0, 0%, 0%, 1) !important;
+    padding: 1.5rem;
+    text-decoration: none;
 }
 
 .menu__item--language .language-dropdown__option--mask {
@@ -4163,8 +4169,14 @@ img {
         padding-top: 10rem!important;
         padding-bottom: 10.6rem!important
     }
+    #menu-navbar li{
+        font-size: 1.7rem;
+        padding-bottom: 5px;
+    }
 }
-
+.menu__item--language .current-language{
+    padding: 0 !important;
+}
 .material-icons--blue {
     color: #1668b2
 }
@@ -4210,11 +4222,14 @@ img {
     display: none
 }
 .logo-sf-tech{
-    width: 55px;
-    height: 61px;
+    width: 40px;
+    height: 40px;
 }
 
 @media (min-width: 576px) and (max-width: 786px) {
+    .navbar{
+        font-size: 2rem;
+    }
     .scroll-to-top-container {
         bottom:11rem;
         right: 0;
@@ -4241,24 +4256,35 @@ img {
         line-height: 2.1rem
     }
     #menu-navbar li{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 .navbar{
     background: #0000004D;
-    height: 101px;
 }
 .navbar:hover {
-    background-color: #2e2d2d !important;
+    background-color: rgb(39, 39, 39) !important;
+}
+.navbar:hover .logo-sf-tech{
+    content: url("https://media.discordapp.net/attachments/1124173580960268328/1124243236949606491/CF_1-01.png?width=657&height=605");
+    width: 80px;
 }
 
+
+
 @media (max-width: 576px) {
-    .logo-sf-tech{
+    .navbar:hover .logo-sf-tech {
         width: 3rem;
-        height: 3rem;
     }
-    .navbar{
-        height: 38px;
+    .menu__item--language .current-language__text{
+        padding-bottom: 1rem;
+    }
+    .menu__item--language .current-language__icon{
+        margin-bottom: 0 !important;
+    }
+    .logo-sf-tech{
+        width: 2rem;
+        height: 2rem;
     }
     .hambuger-button--mobile{
         width: 20px;
@@ -4274,14 +4300,23 @@ img {
         margin-bottom: 5rem !important;
     }
     #menu-navbar li{
-        font-size: 0.5rem;
+        font-size: 0.9rem;
+    }
+    .menu__item{
+        margin-left: 0.8rem;
+    }
+    .menu__item--language .current-language{
+        padding: 0 !important;
     }
 
 }
 
 @media (max-width: 400px) {
     #menu-navbar li{
-        font-size: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .menu__item{
+        margin-left: 0.7rem;
     }
     #menu-navbar{
         font-size: 0.8rem;
