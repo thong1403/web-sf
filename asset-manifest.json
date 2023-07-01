@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web-sf/static/css/main.85dc12bf.css",
-    "main.js": "/web-sf/static/js/main.b0cc3986.js",
+    "main.css": "/web-sf/static/css/main.cfdc4759.css",
+    "main.js": "/web-sf/static/js/main.3fd0bdf4.js",
     "static/media/Group 8 (5).png": "/web-sf/static/media/Group 8 (5).2014d7ee3c4392635248.png",
     "static/media/Group 7.png": "/web-sf/static/media/Group 7.13ace3a7ea89e7ece6f0.png",
     "static/media/Group 8 (6).png": "/web-sf/static/media/Group 8 (6).746b1f5e8aba4da86968.png",
@@ -19,13 +19,12 @@
     "static/media/Rectangle 3.png": "/web-sf/static/media/Rectangle 3.485f8d7ed20318c6d87d.png",
     "static/media/it-oursourcing-690x450-1 1.png": "/web-sf/static/media/it-oursourcing-690x450-1 1.9dd412f92e1bff028d2d.png",
     "static/media/Rectangle 4.png": "/web-sf/static/media/Rectangle 4.30506cc86509f70f2027.png",
-    "static/media/CF_1-01.png": "/web-sf/static/media/CF_1-01.19aa1837882f44ccb9f6.png",
     "index.html": "/web-sf/index.html",
-    "main.85dc12bf.css.map": "/web-sf/static/css/main.85dc12bf.css.map",
-    "main.b0cc3986.js.map": "/web-sf/static/js/main.b0cc3986.js.map"
+    "main.cfdc4759.css.map": "/web-sf/static/css/main.cfdc4759.css.map",
+    "main.3fd0bdf4.js.map": "/web-sf/static/js/main.3fd0bdf4.js.map"
   },
   "entrypoints": [
-    "static/css/main.85dc12bf.css",
-    "static/js/main.b0cc3986.js"
+    "static/css/main.cfdc4759.css",
+    "static/js/main.3fd0bdf4.js"
   ]
 }
