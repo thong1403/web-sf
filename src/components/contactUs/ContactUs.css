@@ -96,8 +96,9 @@ text-align: left;
         width: 50%;
     }
     .input-contactus label{
-        font-size: 0.5rem;
+        font-size: 0.9rem;
         line-height: 8px;
+        margin: 0 !important;
     }
     .img-backgroud-contact-content{
         height: auto !important;
@@ -206,10 +207,10 @@ text-align: left;
         width: 50%;
     }
     .input-contactus label{
-        font-size: 1rem;
+        font-size: 1.6rem;
         line-height: 10px;
-        margin-top: 2rem;
         margin-bottom: 2rem;
+        margin-top: 1rem;
     }
     .img-backgroud-contact-content{
         height: auto !important;
