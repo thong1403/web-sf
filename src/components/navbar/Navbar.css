@@ -4266,16 +4266,12 @@ img {
     background-color: rgb(39, 39, 39) !important;
 }
 .navbar:hover .logo-sf-tech{
-    content: url("https://media.discordapp.net/attachments/1124173580960268328/1124243236949606491/CF_1-01.png?width=657&height=605");
-    width: 80px;
+    content: url("C:\Users\LE XUAN THONG\Downloads\CF_1-01 1.png");
 }
 
 
 
 @media (max-width: 576px) {
-    .navbar:hover .logo-sf-tech {
-        width: 3rem;
-    }
     .menu__item--language .current-language__text{
         padding-bottom: 1rem;
     }
