@@ -297,9 +297,6 @@ float: right;
   .container-services-content .text-content{
     padding-top: 4rem;
   }
-  .total-frame-contains-content{
-    height: 160rem;
-  }
 }
 @media (min-width: 577px) and (max-width: 767px) {
   .container-backgroud-img h1{
@@ -344,9 +341,6 @@ float: right;
   }
   .container-services-content .text-content{
     padding-top: 4rem;
-  }
-  .total-frame-contains-content{
-    height: 118rem;
   }
   .container-content-home .container-title{
     padding-top: 40px;
@@ -397,9 +391,6 @@ float: right;
   }
   .container-services-content .text-content{
     padding-top: 6rem;
-  }
-  .total-frame-contains-content{
-    height: 150rem;
   }
   .container-backgroud-img div{
     top: 33%;
