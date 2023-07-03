@@ -195,6 +195,8 @@ float: right;
   } 
   .container-services-content p{
     font-size: 0.7rem;
+    font-weight: 700;
+    line-height: 8px;
   }
   .container-services-content .text-content{
     padding-top: 2rem;
@@ -292,15 +294,17 @@ float: right;
   } 
   .container-services-content p{
     font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 10px;
   }
   .container-services-content .text-content{
     padding-top: 4rem;
   }
   .total-frame-contains-content{
-    height: 145rem;
+    height: 160rem;
   }
 }
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 767px) {
   .container-backgroud-img h1{
     font-size: 3rem;
     margin-top: 1rem;
@@ -351,7 +355,7 @@ float: right;
     padding-top: 40px;
   }
 }
-@media (min-width: 769px) and (max-width: 912px) {
+@media (min-width: 768px) and (max-width: 912px) {
   .container-backgroud-img h1{
     font-size: 3rem;
     margin-top: 1rem;
@@ -390,13 +394,15 @@ float: right;
     font-size: 1.1rem;
   } 
   .container-services-content p{
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
   }
   .container-services-content .text-content{
     padding-top: 6rem;
   }
   .total-frame-contains-content{
-    height: 140rem;
+    height: 150rem;
   }
   .container-backgroud-img div{
     top: 33%;
@@ -433,10 +439,18 @@ float: right;
     font-size: 1.5rem;
     line-height: 20px;
   }
+  .text-content p{
+    font-size: 1.3rem;
+    line-height: 13px;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
   .container-backgroud-img div{
     left: 7%;
+  }
+  .text-content p{
+    font-size: 1.3rem;
+    line-height: 13px;
   }
 }
 @media (min-width: 1400px) {
@@ -447,4 +461,5 @@ float: right;
   .container-backgroud-img div{
     top: 27%;
   }
+
 }
