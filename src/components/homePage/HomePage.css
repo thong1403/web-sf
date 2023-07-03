@@ -460,8 +460,4 @@ float: right;
   }
 
 }
-@media (max-width: 350px) {
-  .total-frame-contains-content{
-    height: 160rem;
-  }
-}
+
