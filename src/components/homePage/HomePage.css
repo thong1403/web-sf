@@ -1,13 +1,11 @@
-.img {
-  margin-top: -100px;
-}
+
 .container-backgroud-img {
   position: relative;
 }
 .container-backgroud-img div {
   position: absolute;
   top: 23%;
-  left: 12%;
+  left: 16%;
 }
 .container-backgroud-img h1 {
   font-family: Inter;
@@ -21,6 +19,7 @@
   font-size: 20px;
   font-weight: 400;
   text-align: left;
+  line-height: 23px;
   color: white;
 }
 .container-backgroud-img button {
@@ -34,6 +33,8 @@
   border: none;
   font-size: 20px;
   line-height: 24px;
+  font-family: Inter
+
 }
 .title-home {
   font-family: Inter;
@@ -62,6 +63,7 @@
   border-radius: 6px;
   border: 1px;
   gap: 10px;
+  font-family: Inter;
   border: 1px solid #1668b2;
   color: #1668b2;
 }
@@ -71,9 +73,10 @@
   padding: 10px;
   border-radius: 5px;
   gap: 10px;
-  padding-top: 8rem;
+  padding-top: 10rem;
   background: #e8f4ff;
 }
+
 .container-services-content {
   border-radius: 5px;
   padding: 20px;
@@ -99,13 +102,356 @@ letter-spacing: 0em;
 text-align: center;
 color: white;
 }
-.container-conten-services{
-  position: absolute;
-  top: 35%;
-  left: 12%;
- display: block;
+.container-title-services{
+  background: #18ACEA;
+height: 110px;
+padding: 20px;
+border-radius: 5px;
+gap: 10px;
+
 }
-.total-frame-contains-content{
-  position: relative;
-  height: 140rem;
+.btn-contact-us{
+  width: 270px;
+height: 70px;
+padding: 15px 20px 15px 20px;
+border-radius: 10px;
+gap: 10px;
+background: #25AAE1;
+color: white !important;
+border: none !important;
+float: right;
 }
+
+.container-content-home .container-title{
+  background-color: #25AAE1;
+  color: white;
+  height: 110px;
+  padding-top: 30px;
+}
+.container-content-furuter p{
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  text-align: justified;
+  color: #979797;
+  
+}
+@media (max-width:412px) {
+  .container-title h1{
+    margin-top: 0 !important;
+  }
+  .container-content-home .container-title{
+    height: 50px;
+    padding-top: 20px;
+  }
+  .container-title-services{
+    height: 62px;
+    padding: 0;
+  }
+
+  .container-content-furuter{
+    margin-bottom: 5px !important;
+  }
+  .container-backgroud-img h1{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .container-content-furuter p{
+    font-size: 0.8rem;
+    line-height: 15px;
+  }
+  .title-services{
+    font-size: 2rem;
+    margin-bottom: 1rem !important;
+  }
+  .container-backgroud-img p{
+    font-size: 0.8rem;
+    margin-top: -20px !important;
+    margin-bottom: 3px;
+  }
+  .container-backgroud-img button{
+    width: 30%;
+    font-size: 0.8rem;
+    height: 25px;
+    padding: 0 !important;
+    margin-top: 1px !important;
+  }
+  .container-content-home h1{
+    font-size: 2rem;
+  }
+  .container-content-home li{
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  .container-content-home button{
+    width: 10rem;
+    font-size: 1rem;
+  }
+
+  .container-services-content h2{
+    font-size: 1rem;
+  } 
+  .container-services-content p{
+    font-size: 0.7rem;
+    font-weight: 700;
+    line-height: 8px;
+  }
+  .container-services-content .text-content{
+    padding-top: 2rem;
+  }
+  .container-backgroud-img p{
+    line-height: 10px;
+    font-size: 0.5rem;
+  }
+  .container-backgroud-img h1{
+    font-size: 1rem;
+    line-height: 13px;
+  }
+  .container-backgroud-img button{
+    font-size: 0.5rem;
+  }
+  .container-services-content{
+    max-width: 50%;
+    flex: 50%;
+  }
+  .container-backGroud-title h1{
+    font-size: 3.5rem;
+    line-height: 35px;
+}
+.container-backGroud-title div{
+    left: 5%;
+}
+.container-backgroud-img div{
+  left: 6%;
+}
+}
+@media (min-width: 413px) and (max-width: 576px) {
+  .container-backgroud-img div{
+    left: 7%;
+  }
+  .title-home{
+    margin-top: 20px;
+  }
+  .container-title-services{
+    height: 60px;
+    padding: 0;
+  }
+  .title-services{
+    font-size: 3rem;
+
+  }
+  .container-content-home .container-title{
+    height: 60px;
+    padding-top: 5px;
+  }
+  .container-services-content{
+    max-width: 50%;
+    flex: 50%;
+  }
+  .container-backgroud-img h1{
+    font-size: 1rem;
+    line-height: 10px;
+    margin-top: 2rem;
+  }
+  .container-backgroud-img p{
+    font-size: 0.8rem;
+    margin-top: -20px !important;
+    margin-bottom: 3px;
+    line-height: 10px;
+  }
+  .container-backgroud-img button{
+    width: 30%;
+    font-size: 0.8rem;
+    height: 25px;
+    padding: 0 !important;
+    margin-top: 1px !important;
+  }
+  .title-home{
+    font-size: 2rem !important;
+  }
+  .container-content-home li{
+    font-size: 0.8rem;
+    line-height: 10px;
+  }
+  .container-content-furuter p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .container-content-home button{
+    width: 10rem;
+    font-size: 1rem;
+  }
+  .container-services-content{
+    width: 50%;
+  }
+  .container-services-content h2{
+    font-size: 1rem;
+  } 
+  .container-services-content p{
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 10px;
+  }
+  .container-services-content .text-content{
+    padding-top: 4rem;
+  }
+}
+@media (min-width: 577px) and (max-width: 767px) {
+  .container-backgroud-img h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .container-backgroud-img div{
+    left: 8%;
+    top: 30%;
+  }
+  .container-backgroud-img p{
+    font-size: 0.8rem;
+    margin-top: -20px !important;
+    margin-bottom: 3px;
+  }
+  .container-backgroud-img button{
+    width: 30%;
+    font-size: 0.8rem;
+    height: 25px;
+    padding: 0 !important;
+    margin-top: 1px !important;
+  }
+  .container-content-home h1{
+    font-size: 2rem;
+  }
+  .container-content-home li{
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  .container-content-home button{
+    width: 10rem;
+    font-size: 1rem;
+  }
+  .container-services-content{
+    width: 33%;
+  }
+  .container-services-content h2{
+    font-size: 1rem;
+  } 
+  .container-services-content p{
+    font-size: 0.9rem;
+  }
+  .container-services-content .text-content{
+    padding-top: 4rem;
+  }
+  .container-content-home .container-title{
+    padding-top: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 912px) {
+  .container-backgroud-img h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .container-content-home .container-title{
+    padding-top: 40px;
+  }
+  .container-backgroud-img p{
+    font-size: 0.8rem;
+    margin-top: -20px !important;
+    margin-bottom: 3px;
+  }
+  .container-backgroud-img button{
+    width: 30%;
+    font-size: 0.8rem;
+    height: 25px;
+    padding: 0 !important;
+    margin-top: 1px !important;
+  }
+  .container-content-home h1{
+    font-size: 2rem;
+  }
+  .container-content-home li{
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  .container-content-home button{
+    width: 10rem;
+    font-size: 1rem;
+  }
+  .container-services-content{
+    width: 33%;
+  }
+
+  .container-services-content h2{
+    font-size: 1.1rem;
+  } 
+  .container-services-content p{
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+  }
+  .container-services-content .text-content{
+    padding-top: 6rem;
+  }
+  .container-backgroud-img div{
+    top: 33%;
+    left: 13%;
+  }
+}
+@media (min-width: 913px) and (max-width: 999px){
+
+  .title-backgroud h1{
+    font-size: 5rem;
+  }
+  .title-backgroud button{
+    margin-top: 10px !important;
+  }
+  .container-services-content h2{
+    font-size: 1.2rem;
+  }
+
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .container-conten-services{
+    left: 3rem;
+    top: 20%;
+  }
+  .container-backgroud-img div{
+    left: 11%;
+    top: 30%;
+  }
+  .title-backgroud h1{
+    font-size: 4rem;
+    margin-top: 25px;
+  }
+  .title-backgroud p{
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+  .text-content p{
+    font-size: 1.3rem;
+    line-height: 13px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container-backgroud-img div{
+    left: 7%;
+  }
+  .text-content p{
+    font-size: 1.3rem;
+    line-height: 13px;
+  }
+}
+@media (min-width: 1400px) {
+
+  .container-services-content{
+    width: 33%;
+  }
+  .container-backgroud-img div{
+    top: 27%;
+  }
+
+}
+
+/* .container-backgroud-img div{
+  top: 27%;
+} */

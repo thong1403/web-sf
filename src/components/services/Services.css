@@ -1,0 +1,219 @@
+.container-backGroud-title{
+    position: relative;
+}
+.container-backGroud-title div{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+}
+.container-backGroud-title h1{
+    font-family: Inter;
+font-size: 64px;
+font-weight: 700;
+line-height: 77px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 30px;
+
+}
+.container-backGroud-title p{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.container-backGroud-title button{
+    width: 219px;
+    font-family: Inter;
+height: 54px;
+padding: 15px 20px 15px 20px;
+border-radius: 10px;
+gap: 10px;
+background: #18ACEA;
+font-size: 20px;
+border: none;
+
+}
+.content-services h1{
+    font-family: Inter;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #18ACEA;
+border-bottom: 5px solid #18ACEA;
+}
+.content-services p{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+color:  #000000;
+}
+.row-container-content{
+    margin-top: 8rem;
+}
+@media (max-width: 412px) {
+    .container-title h1{
+        font-size: 1.2rem;
+        line-height: 13px;
+        margin-bottom: 10px !important;
+
+    }
+    .container-title p{
+        font-size: 0.5rem;
+        line-height: 1rem;
+    }
+    .container-title button{
+        font-size: 0.6rem;
+        width: 80px;
+        height: 15px;
+        padding: 0 ;
+        margin-top: 10px !important;
+    }
+    .container-backGroud-title div{
+        left: 2%;
+    }
+    .content-services h1{
+        font-size: 1rem;
+        margin-bottom: 5px !important;
+    }
+    .content-services p{
+        font-size: 0.8rem;
+        line-height: 10px;
+    }
+    .row-container-content{
+        margin-top: 20px;
+    }
+}
+@media (min-width: 413px) and (max-width: 576px) {
+    .row-container-content{
+        margin-top: 20px;
+    }
+    .container-title h1{
+        font-size: 1rem;
+        line-height: 13px;
+        margin-bottom: 10px !important;
+
+    }
+    .container-title p{
+        font-size: 0.5rem;
+        line-height: 1rem;
+    }
+    .container-title button{
+        font-size: 0.8rem;
+        width: 100px;
+        height: 20px;
+        padding: 0 ;
+        margin-top: 10px !important;
+    }
+    .container-backGroud-title div{
+        left: 3%;
+    }
+    .content-services h1{
+        font-size: 1rem;
+        margin-bottom: 5px !important;
+    }
+    .content-services p{
+        font-size: 0.8rem;
+        line-height: 10px;
+    }
+}
+@media (min-width: 576px) and (max-width: 786px) {
+    .row-container-content{
+        margin-top: 30px;
+    }
+    .container-title h1{
+        font-size: 2.5rem;
+        line-height: 30px;
+        margin-bottom: 15px !important;
+
+    }
+    .container-title p{
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    .container-title button{
+        font-size: 1rem;
+        width: 100px;
+        height: 30px;
+        padding: 0 ;
+        margin-top: 10px !important;
+    }
+    .container-backGroud-title div{
+        left: 5%;
+        top: 35%;
+    }
+    .content-services h1{
+        font-size: 2rem;
+        margin-bottom: 5px !important;
+    }
+    .content-services p{
+        font-size: 1.2rem;
+        line-height: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 912px) {
+    .row-container-content{
+        margin-top: 30px;
+    }
+    .container-title h1{
+        font-size: 3rem;
+        line-height: 30px;
+        margin-bottom: 15px !important;
+
+    }
+    .container-title p{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .container-title button{
+        font-size: 1.2rem;
+        width: 100px;
+        height: 40px;
+        padding: 0 ;
+        margin-top: 10px !important;
+    }
+    .container-backGroud-title div{
+        left: 9%;
+        top: 35%;
+    }
+    .content-services h1{
+        font-size: 2rem;
+        margin-bottom: 5px !important;
+    }
+    .content-services p{
+        font-size: 1.2rem;
+        line-height: 15px;
+    }
+}
+@media (min-width: 913px) and (max-width: 1200px) {
+    .container-backGroud-title h1{
+        font-size: 3.5rem;
+        line-height: 35px;
+    }
+    .container-backGroud-title div{
+        left: 5%;
+    }
+    .container-backGroud-title p{
+        font-size: 2rem;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .container-backGroud-title h1{
+        font-size: 4rem;
+        line-height: 40px;
+    }
+    .container-backGroud-title div{
+        left: 5%;
+    }
+    .container-backGroud-title p{
+        font-size: 2rem;
+    }
+}

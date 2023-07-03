@@ -7,6 +7,8 @@ import ContactUs from "../contactUs/ContactUs";
 import Industries from "../Industries/Industries";
 import HomePage from "./../homePage/HomePage";
 import './Home.css'
+import Services from './../services/Services';
+import Recruitment from "../Recruitment/Recruitment";
 
 export default function Home() {
   return (
@@ -14,10 +16,12 @@ export default function Home() {
       <Navbar />
       <div className="router-page">
         <Routes>
-          <Route path="/sf-tech-web" element={<HomePage />} />
+          <Route path="/web-sf" element={<HomePage />} />
+          <Route path="/services" element={<Services/>}/>
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/Industries" element={<Industries />} />
+          <Route path="/Recruitment" element={<Recruitment/>}/>
         </Routes>
       </div>
 

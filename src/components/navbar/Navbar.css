@@ -2138,13 +2138,18 @@ html {
 
 .menu__item__expandable-link,.menu__item__link {
     text-decoration: none;
-    padding: 4rem 1rem;
-    border-bottom: 2px solid transparent
 }
 
 .menu__item__expandable-link:hover,.menu__item__link:hover {
     border-bottom: 2px solid #fff;
     cursor: pointer
+}
+a{
+        text-decoration: none !important; 
+        color: white !important; 
+}
+#li-hover:hover {
+    border-bottom: 2px solid white;
 }
 
 .menu__item--language {
@@ -2215,9 +2220,8 @@ html {
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 7rem;
-    left: .01rem;
-    background: #1668b2;
+    top: 3rem;
+    background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height .65s cubic-bezier(.4,0,.2,1);
@@ -2234,9 +2238,9 @@ html {
 }
 
 .menu__item--language .language-dropdown__option {
-    color: hsla(0,0%,100%,.5);
-    padding: 1.3rem 5rem 1.3rem 2.5rem;
-    text-decoration: none
+    color: hsla(0, 0%, 0%, 1) !important;
+    padding: 1.5rem;
+    text-decoration: none;
 }
 
 .menu__item--language .language-dropdown__option--mask {
@@ -2245,7 +2249,8 @@ html {
 
 .menu__item--language .language-dropdown__option:hover {
     cursor: pointer;
-    color: #fff
+    color: black;
+    font-weight: 800;
 }
 
 @media screen and (min-width: 992px) {
@@ -3333,7 +3338,6 @@ body {
 body * {
     color: inherit;
     font-size: inherit;
-    font-family: inherit;
     line-height: inherit;
     -webkit-text-size-adjust: inherit;
     -moz-text-size-adjust: inherit;
@@ -3358,7 +3362,6 @@ body>main {
 }
 
 .container {
-    max-width: 120rem;
     padding-left: 2rem;
     padding-right: 2rem;
     margin-left: auto;
@@ -3375,7 +3378,7 @@ body>main {
 }
 
 .container--flex--space-between {
-    justify-content: space-between
+    justify-content: space-between !important ;
 }
 
 .grid {
@@ -4166,8 +4169,14 @@ img {
         padding-top: 10rem!important;
         padding-bottom: 10.6rem!important
     }
+    #menu-navbar li{
+        font-size: 1.7rem;
+        padding-bottom: 5px;
+    }
 }
-
+.menu__item--language .current-language{
+    padding: 0 !important;
+}
 .material-icons--blue {
     color: #1668b2
 }
@@ -4213,11 +4222,14 @@ img {
     display: none
 }
 .logo-sf-tech{
-    width: 55px;
-    height: 61px;
+    width: 40px;
+    height: 40px;
 }
 
-@media screen and (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 786px) {
+    .navbar{
+        font-size: 2rem;
+    }
     .scroll-to-top-container {
         bottom:11rem;
         right: 0;
@@ -4243,4 +4255,85 @@ img {
         display: block;
         line-height: 2.1rem
     }
+    #menu-navbar li{
+        font-size: 1.5rem;
+    }
+}
+.navbar{
+    background: #0000004D;
+}
+.navbar:hover {
+    background-color: rgb(39, 39, 39) !important;
+}
+.navbar:hover .logo-sf-tech{
+    content: url("https://media.discordapp.net/attachments/1124173580960268328/1124243236949606491/CF_1-01.png?width=657&height=605");
+    width: 80px;
+}
+
+
+
+@media (max-width: 576px) {
+    .navbar:hover .logo-sf-tech {
+        width: 3rem;
+    }
+    .menu__item--language .current-language__text{
+        padding-bottom: 1rem;
+    }
+    .menu__item--language .current-language__icon{
+        margin-bottom: 0 !important;
+    }
+    .logo-sf-tech{
+        width: 2rem;
+        height: 2rem;
+    }
+    .hambuger-button--mobile{
+        width: 20px;
+    }
+    .navbar__container .main-content{
+        padding: 0;
+    }
+    .navbar-menu li{
+        font-size: 0.5rem;
+    }
+    .img-backGrod{
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
+    }
+    #menu-navbar li{
+        font-size: 0.9rem;
+    }
+    .menu__item{
+        margin-left: 0.8rem;
+    }
+    .menu__item--language .current-language{
+        padding: 0 !important;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #menu-navbar li{
+        font-size: 0.8rem;
+    }
+    .menu__item{
+        margin-left: 0.7rem;
+    }
+    #menu-navbar{
+        font-size: 0.8rem;
+    }
+    .current-language{
+        font-size: 0.8rem;
+    }
+    .current-language__icon--expand{
+        font-size: 0.8rem;
+    }
+    .menu__item--language .current-language{
+        padding: 0 !important;
+    }
+}
+.navbar-menu{
+    display: flex;
+}
+link{
+    color: white;
 }

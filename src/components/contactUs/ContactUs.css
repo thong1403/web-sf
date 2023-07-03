@@ -1,10 +1,11 @@
 .container-input h1{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
 font-size: 48px;
 font-weight: 700;
 line-height: 48px;
 letter-spacing: 0.5px;
-color: #000000;
+color:  #25AAE1;
+;
 }
 .container-input p{
     font-family: Inter;
@@ -40,9 +41,6 @@ text-align: left;
     min-height: 150px;
 }
 
-.description{
-    height: 17rem;
-}
 .container-contactus{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 2rem 0rem 1rem 0rem;
@@ -51,15 +49,179 @@ text-align: left;
 .container-input{
     padding: 2rem;
 }
-.input-contactus button{
-    width: 152px;
-    height:44px;
-    padding: 10px 20px 10px 20px;
+#btn-send-msg{
+    width:184px;
+    height: 44px;
+    padding: 8px 20px 10px 20px;
     border-radius: 10px;
     gap: 10px;
-    float: right;
     background-color: #18ACEA;
-    ;
+    font-family: inter;
+    font-size: 17px;
     
 }
+.img-backgroud-contact-content{
+    height: 450px;
+}
+.your-agree input{
+    margin-right: 5px;
+}
 
+@media (max-width: 576px) {
+    .container-input h1{
+        font-size: 1.5rem;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        line-height: 20px;
+    }
+    .description  label{
+        font-size: 1rem;
+    }
+    .container-input{
+        padding-top: 0;
+    }
+    .description{
+        width: 100% !important;
+        padding-left: 2rem;
+    }
+    .container-input p{
+        font-size: 8px;
+        line-height: 10px;
+        margin-bottom: 0 !important;
+    }
+    .input-contactus .col-6{
+        width: 50%;
+    }
+    .input-contactus label{
+        font-size: 0.9rem;
+        line-height: 8px;
+        margin: 0 !important;
+    }
+    .img-backgroud-contact-content{
+        height: auto !important;
+    }
+    .css-dev-only-do-not-override-12upa3x{
+        margin-bottom: 5px;
+    }
+    #nest-messages_user_description {
+        min-height: 100px;
+    }
+    .your-agree{
+        margin-top: 5px !important;
+    }
+    .img-backgroud-contact-content{
+        height: 100%;
+    }
+    .ant-form-item-explain-error{
+        display: none;
+    }
+    .img-container-contact-us-col-6{
+        display: none;
+    }
+    .container-input{
+        max-width: 100%;
+        flex: 100%;
+    }
+    #btn-send-msg{
+        font-size: 1rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .img-container-contact-us-col-6{
+        display: none;
+    }
+    .container-input{
+        max-width: 100%;
+        flex: 100%;
+    }
+    .container-input h1{
+        font-size: 1.5rem;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        line-height: 20px;
+    }
+    .ant-form-item-explain-error{
+        display: none;
+    }
+    .container-input{
+        padding-top: 0;
+    }
+    .description{
+        width: 100% !important;
+    }
+    .container-input p{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .input-contactus .col-6{
+        width: 50%;
+    }
+    .input-contactus label{
+        font-size: 1rem;
+        line-height: 8px;
+    }
+    .img-backgroud-contact-content{
+        height: auto !important;
+    }
+    .css-dev-only-do-not-override-12upa3x{
+        margin-bottom: 5px;
+    }
+    #nest-messages_user_description {
+        min-height: 100px;
+    }
+    .your-agree{
+        margin-top: 5px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+    .img-container-contact-us-col-6{
+        display: none;
+    }
+    .container-input{
+        max-width: 100%;
+        flex: 100%;
+    }
+    .container-input h1{
+        font-size: 2rem;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        line-height: 30px;
+    }
+    .ant-form-item-explain-error{
+        display: none;
+    }
+    .container-input{
+        padding-top: 0;
+    }
+    .description{
+        width: 100% !important;
+    }
+    .container-input p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .input-contactus .col-6{
+        width: 50%;
+    }
+    .input-contactus label{
+        font-size: 1.6rem;
+        line-height: 10px;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    .img-backgroud-contact-content{
+        height: auto !important;
+    }
+    .css-dev-only-do-not-override-12upa3x{
+        margin-bottom: 5px;
+    }
+    #nest-messages_user_description {
+        min-height: 100px;
+    }
+    .your-agree{
+        margin-top: 5px !important;
+    }
+}
+@media (min-width: 1000px) {
+    
+}
