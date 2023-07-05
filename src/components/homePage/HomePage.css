@@ -23,18 +23,17 @@
   color: white;
 }
 .container-backgroud-img button {
-  width: 144px;
-  height: 44px;
-  padding: 10px 20px 10px 20px;
+  width: 219px;
+  font-family: Inter;
+  height: 54px;
+  padding: 15px 20px 15px 20px;
   border-radius: 10px;
   gap: 10px;
-  background-color: #18acea;
-  color: white;
-  border: none;
+  background: #18ACEA;
   font-size: 20px;
-  line-height: 24px;
-  font-family: Inter
-
+  border: none;
+  color: white;
+  margin-top: 2rem !important;
 }
 .title-home {
   font-family: Inter;
@@ -210,7 +209,11 @@ float: right;
     line-height: 13px;
   }
   .container-backgroud-img button{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
+    width: 80px;
+    height: 15px;
+    padding: 0;
+    margin-top: 10px !important;
   }
   .container-services-content{
     max-width: 50%;
@@ -262,11 +265,11 @@ float: right;
     line-height: 10px;
   }
   .container-backgroud-img button{
-    width: 30%;
     font-size: 0.8rem;
-    height: 25px;
-    padding: 0 !important;
-    margin-top: 1px !important;
+    width: 100px;
+    height: 20px;
+    padding: 0;
+    margin-top: 10px !important;
   }
   .title-home{
     font-size: 2rem !important;
@@ -360,11 +363,11 @@ float: right;
     margin-bottom: 3px;
   }
   .container-backgroud-img button{
-    width: 30%;
-    font-size: 0.8rem;
-    height: 25px;
-    padding: 0 !important;
-    margin-top: 1px !important;
+    font-size: 1.2rem;
+    width: 100px;
+    height: 40px;
+    padding: 0;
+    margin-top: 10px !important;
   }
   .container-content-home h1{
     font-size: 2rem;
