@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/web-sf/static/css/main.c37e3d18.css",
+    "main.js": "/web-sf/static/js/main.b8b69fac.js",
+    "static/media/Group 7.png": "/web-sf/static/media/Group 7.13ace3a7ea89e7ece6f0.png",
+    "static/media/IMAGE (2).png": "/web-sf/static/media/IMAGE (2).1e0b8cc639990b65300a.png",
+    "static/media/Group 8 (7).png": "/web-sf/static/media/Group 8 (7).8d16db39eaa71f473cd0.png",
+    "static/media/Group 8 (6).png": "/web-sf/static/media/Group 8 (6).746b1f5e8aba4da86968.png",
+    "static/media/Group 8 (3).png": "/web-sf/static/media/Group 8 (3).6354550d7ba122ef2b19.png",
+    "static/media/353399350_137125962717203__n.jpg": "/web-sf/static/media/353399350_137125962717203_6462137882169683759_n.8582cb13e805a8125e43.jpg",
+    "static/media/Group 8.png": "/web-sf/static/media/Group 8.632e250d882335e361cc.png",
+    "static/media/BG.png": "/web-sf/static/media/BG.d5b2bf3c099bcb25379b.png",
+    "static/media/Frame 42962.png": "/web-sf/static/media/Frame 42962.d83b50fe0308962883fe.png",
+    "static/media/Frame 42958.png": "/web-sf/static/media/Frame 42958.c356b585427df28fb48f.png",
+    "static/media/Rectangle 2 (1).png": "/web-sf/static/media/Rectangle 2 (1).7f6585233b0989643e7b.png",
+    "static/media/Rectangle 1 (1).png": "/web-sf/static/media/Rectangle 1 (1).328068df45be801e6476.png",
+    "static/media/Rectangle 4 (1).png": "/web-sf/static/media/Rectangle 4 (1).3a756d39e9941abba064.png",
+    "static/media/Rectangle 3 (1).png": "/web-sf/static/media/Rectangle 3 (1).35bdd74e9e4abda1bac3.png",
+    "static/media/digital-transformation-690x450-1 1.png": "/web-sf/static/media/digital-transformation-690x450-1 1.d6cc80e966615d9f5d5c.png",
+    "static/media/digital-transformation-690x450-1 1 (1).png": "/web-sf/static/media/digital-transformation-690x450-1 1 (1).615634c5e20d46ce68b1.png",
+    "static/media/it-oursourcing-690x450-1 1.png": "/web-sf/static/media/it-oursourcing-690x450-1 1.9dd412f92e1bff028d2d.png",
+    "index.html": "/web-sf/index.html",
+    "main.c37e3d18.css.map": "/web-sf/static/css/main.c37e3d18.css.map",
+    "main.b8b69fac.js.map": "/web-sf/static/js/main.b8b69fac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c37e3d18.css",
+    "static/js/main.b8b69fac.js"
+  ]
+}
