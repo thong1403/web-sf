@@ -9,6 +9,7 @@ import HomePage from "./../homePage/HomePage";
 import './Home.css'
 import Services from './../services/Services';
 import Recruitment from "../Recruitment/Recruitment";
+import ButtonTop from "../buttonTop/ButtonTop";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
           <Route path="/Recruitment" element={<Recruitment/>}/>
         </Routes>
       </div>
+      <ButtonTop/>
 
       <Footer />
     </div>

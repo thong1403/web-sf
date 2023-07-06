@@ -18,7 +18,7 @@ export default function HomePage() {
             Let <br /> our engineers walk you through any challenges with deep
             expertise <br /> & great experience.
           </p>
-          <button className="mt-5"> Read more</button>
+          <button className="mt-5"> <a href="#footer">Read more</a> </button>
         </div>
       </div>
       <div className="container">

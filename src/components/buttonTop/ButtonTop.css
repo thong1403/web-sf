@@ -1,0 +1,11 @@
+.btn-top-click{
+    font-size: 2rem;
+    padding: 1rem;
+    color: gray;
+    border: none;
+    position: sticky;
+    bottom: 0;
+    left: 96%;
+    border-radius: 10px;
+
+}
