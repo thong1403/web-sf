@@ -67,7 +67,7 @@
   color: #1668b2;
 }
 .container-services-content .text-content {
-  height: 250px;
+  height: 70%;
   padding: 10px;
   border-radius: 5px;
   gap: 10px;
@@ -201,10 +201,6 @@ float: right;
     font-weight: 700;
     line-height: 8px;
   }
-  .container-services-content .text-content{
-    padding-top: 2rem;
-    height: 200px;
-  }
   .container-backgroud-img p{
     line-height: 10px;
     font-size: 0.5rem;
@@ -305,9 +301,7 @@ float: right;
     font-weight: 600;
     line-height: 10px;
   }
-  .container-services-content .text-content{
-    padding-top: 4rem;
-  }
+
 }
 @media (min-width: 577px) and (max-width: 767px) {
   .container-backgroud-img h1{
