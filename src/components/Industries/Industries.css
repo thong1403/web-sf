@@ -14,7 +14,7 @@
   margin: 7px;
 }
 .container-information button {
-  font-weight: 500;
+  font-weight: 800;
   padding: 10px;
   border: none;
   background-color: white;
@@ -23,7 +23,6 @@
 .container-information p {
   font-family: Inter;
   font-size: 21px;
-  font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.5px;
   text-align: left;
@@ -102,7 +101,6 @@
   }
   .container-information h3{
     font-size: 1.3rem;
-    font-weight: 800;
   }
   .container-information button{
     font-size: 1.5rem;

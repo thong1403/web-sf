@@ -2,10 +2,10 @@ import React from "react";
 import "./AboutUs.css";
 import imgBackgroud from "../images/353399350_137125962717203_6462137882169683759_n.jpg";
 import imgContent from "../images/Frame 42962.png";
-import img1 from '../images/Rectangle 1.png'
-import img2 from '../images/Rectangle 2.png'
-import img3 from '../images/Rectangle 3.png'
-import img4 from '../images/Rectangle 4.png'
+import img1 from '../images/Rectangle 1 (1).png'
+import img2 from '../images/Rectangle 2 (1).png'
+import img3 from '../images/Rectangle 3 (1).png'
+import img4 from '../images/Rectangle 4 (1).png'
 
 
 export default function AboutUs() {

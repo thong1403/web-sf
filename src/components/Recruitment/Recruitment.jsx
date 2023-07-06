@@ -1,5 +1,5 @@
 import React from "react";
-import imgBackGroud from "../images/Group 8 (5).png";
+import imgBackGroud from "../images/IMAGE (2).png";
 import search from "../images/Search_duotone.png";
 import './Recruitment.css'
 
@@ -20,9 +20,9 @@ export default function Recruitment() {
           <div className="col-12">
             <div className="row">
               <div className="col-4 container-information">
-                <button>Designer</button>
+                <button>GRAPHIC DESIGNER</button>
                 <h3 className="mt-3 mb-3">
-                  <b>A Designer</b>
+                  <b>JOB DESCRIPTION</b>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.

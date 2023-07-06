@@ -1,6 +1,6 @@
 import React from "react";
 import "./Industries.css";
-import imgBackgroud from "../images/Group 8 (1).png";
+import imgBackgroud from "../images/Group 8 (7).png";
 import imgIndustres from '../images/Frame 42958.png';
 import img1 from '../images/Frame 42998.png';
 import img2 from '../images/Frame 42993.png';
