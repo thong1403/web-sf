@@ -126,14 +126,16 @@ float: right;
   height: 110px;
   padding-top: 30px;
 }
+.text-content p{
+  color: #645d5d;
+}
 .container-content-furuter p{
-  font-family: Inter;
   font-size: 21px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 30px;
   letter-spacing: 0.5px;
   text-align: justified;
-  color: #979797;
+  color: #645d5d;
   
 }
 @media (max-width:412px) {

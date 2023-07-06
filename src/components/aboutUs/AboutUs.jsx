@@ -2,11 +2,10 @@ import React from "react";
 import "./AboutUs.css";
 import imgBackgroud from "../images/353399350_137125962717203_6462137882169683759_n.jpg";
 import imgContent from "../images/Frame 42962.png";
-import img1 from '../images/Rectangle 1 (1).png'
-import img2 from '../images/Rectangle 2 (1).png'
-import img3 from '../images/Rectangle 3 (1).png'
-import img4 from '../images/Rectangle 4 (1).png'
-
+import img1 from "../images/Rectangle 1 (1).png";
+import img2 from "../images/Rectangle 2 (1).png";
+import img3 from "../images/Rectangle 3 (1).png";
+import img4 from "../images/Rectangle 4 (1).png";
 
 export default function AboutUs() {
   return (
@@ -17,11 +16,10 @@ export default function AboutUs() {
           <h1 className="text-center title-about-us mt-5 mb-5">ABOUT US</h1>
           <div className="col-12 col-12-content">
             <p className="fs-2">
-              Part of SF-Technologies , we are experts in technology <br />
-              SF-Technologies exists in a group that boasts a global <br />
-              technology talent solutions business. <br />
-              We deliver smart solutions that solve business challenges and
-              create value.
+              SF-Technologists is a leading technology company specializing in
+              providing software, web and mobile technology service solutions.
+              Planning, technology strategy, custom software development in line
+              with business vision.
             </p>
             <img src={imgContent} alt="" className="mt-5 mb-5 w-100" />
             <h3 className="mt-5 mb-5">

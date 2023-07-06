@@ -21,11 +21,11 @@
   border-radius: 8px;
 }
 .container-information p {
-  font-family: Inter;
   font-size: 21px;
   line-height: 30px;
   letter-spacing: 0.5px;
   text-align: left;
+  font-weight: 600;
 }
 @media (max-width: 350px) {
   .container-information{
@@ -55,7 +55,7 @@
     font-weight: 800;
   }
   .container-information button{
-    font-size: 0.5rem;
+    font-size: 0.5rem !important;
   }
   .container-information{
     width: 29%;

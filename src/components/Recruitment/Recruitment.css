@@ -8,6 +8,13 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
+.container-information h3{
+  font-family: Inter;
+  margin-left: 2%;
+}
+.container-information button{
+  font-family: Inter;
+}
 .container-we-are h1 {
   font-family: Inter;
   font-size: 48px;
