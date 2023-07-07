@@ -66,16 +66,17 @@ export default function Product() {
               <div className="col-6 container-content-product">
                 <img src={img5} alt="" className="w-50 mb-5" />
                 <p>
-                  Dự án Solution AI Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text ever since the 1500s, when an
-                  unknown printer took a galley of type and scrambled it to make
-                  a type specimen book. It has survived not only five centuries,
-                  but also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  Solution AI is a system that applies Artificial Intelligence
+                  (AI) technology in consulting, supporting and answering
+                  people's questions. Built on OpenAI's GPT-3.5 platform,
+                  Solution AI has the ability to understand and respond to users
+                  in a natural and flexible way. Solution AI can help users in
+                  many different areas, including: Product and service
+                  consulting Technical support Inquiries Answering Career advice
+                  Education support Solution AI not only provides information
+                  but also Ability to absorb and learn from user experience.
+                  This improves thinking ability and gives better and better
+                  feedback over time.
                 </p>
               </div>
               <div className="col-6">
