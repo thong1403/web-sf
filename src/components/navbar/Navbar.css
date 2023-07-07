@@ -3346,7 +3346,7 @@ body * {
 
 body a,body b,body i,body span,body u {
     display: inline-block;
-    color: inherit
+    color: inherit;
 }
 
 body>main {
@@ -4170,7 +4170,7 @@ img {
         padding-bottom: 10.6rem!important
     }
     #menu-navbar li{
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         padding-bottom: 5px;
     }
 }
@@ -4296,7 +4296,7 @@ img {
         margin-bottom: 5rem !important;
     }
     #menu-navbar li{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .menu__item{
         margin-left: 0.8rem;
@@ -4309,7 +4309,7 @@ img {
 
 @media (max-width: 400px) {
     #menu-navbar li{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .menu__item{
         margin-left: 0.7rem;

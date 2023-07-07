@@ -8,6 +8,11 @@
     color: #25AAE1;
     
 }
+.title-center{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+}
 .container-img-content-col-3{
     margin-top: 5%;
 }

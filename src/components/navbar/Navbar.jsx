@@ -53,6 +53,15 @@ export default function Navbar() {
                     </Link>
                   </li>
                   <li class="menu__item menu__item--main" onClick={handleClick} id="li-hover">
+                    <Link to="/product">
+                      <span
+                        id="company-option click"
+                      >
+                        Products
+                      </span>
+                    </Link>
+                  </li>
+                  <li class="menu__item menu__item--main" onClick={handleClick} id="li-hover">
                     <Link to="/Industries">
                       <span
                         id="industries-option click"

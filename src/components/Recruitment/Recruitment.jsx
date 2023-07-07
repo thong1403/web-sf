@@ -2,6 +2,7 @@ import React from "react";
 import imgBackGroud from "../images/IMAGE (2).png";
 import search from "../images/Search_duotone.png";
 import "./Recruitment.css";
+import {Link} from 'react-router-dom'
 
 export default function Recruitment() {
   return (
@@ -20,7 +21,8 @@ export default function Recruitment() {
           <div className="col-12">
             <div className="row">
               <div className="col-4 container-information">
-                <button className="mb-5">GRAPHIC DESIGNER</button>
+                
+                <button className="mb-3">Graphic Designer</button>
                 <h3 className="mt-3 mb-3">
                   <b>JOB DESCRIPTION</b>
                 </h3>
@@ -36,9 +38,12 @@ export default function Recruitment() {
                   · Motion Graphic is a plus <br />
                   ...
                 </p>
+                <Link to='/information' className="container-link-information">
+                <button>Read more</button>
+                </Link>
               </div>
               <div className="col-4 container-information">
-                <button className="mb-5">BUSINESS ANALYST</button>
+                <button className="mb-3">Business Analyst</button>
                 <h3 className="mt-3 mb-3">
                   <b>JOB DESCRIPTION</b>
                 </h3>
@@ -54,9 +59,12 @@ export default function Recruitment() {
                   Information preferably <br />
                   ...{" "}
                 </p>
+                <Link to='/information' className="container-link-information">
+                <button>Read more</button>
+                </Link>
               </div>
               <div className="col-4 container-information">
-                <button>TESTER</button>
+                <button className="mb-3">Tester </button>
                 <h3 className="mt-3 mb-3">
                   <b>Job description</b>
                 </h3>
@@ -76,9 +84,12 @@ export default function Recruitment() {
                   • Understanding about Web application, <br />
                   ...
                 </p>
+                <Link to='/information' className="container-link-information">
+                <button>Read more</button>
+                </Link>
               </div>
               <div className="col-4 container-information">
-                <button>Mobile Engineer (Flutter)</button>
+                <button className="mb-3">Mobile Engineer (Flutter)</button>
                 <h3 className="mt-3 mb-3">
                   <b>JOB DESCRIPTION</b>
                 </h3>
@@ -93,9 +104,12 @@ export default function Recruitment() {
                   At least 3 Years experience in Flutter <br />
                   Good communication skills in English and Vietnamese <br /> ...
                 </p>
+                <Link to='/information' className="container-link-information">
+                <button>Read more</button>
+                </Link>
               </div>
               <div className="col-4 container-information">
-                <button className="fs-3">Senior Backend Engineer (Java)</button>
+                <button className="fs-3 mb-3">Senior Backend Engineer (Java)</button>
                 <h3 className="mt-3 mb-3">
                   <b>JOB DESCRIPTION</b>
                 </h3>
@@ -110,9 +124,12 @@ export default function Recruitment() {
                   · 5+ years of handson development experience in Java and its
                   frameworks (Spring Framework, Spring boot) <br /> ...
                 </p>
+                <Link to='/information' className="container-link-information">
+                <button>Read more</button>
+                </Link>
               </div>
               <div className="col-4 container-information">
-                <button>Technical Lead Frontend</button>
+                <button className="mb-3">Technical Lead Frontend</button>
                 <h3 className="mt-3 mb-3">
                   <b>JOB DESCRIPTION</b>
                 </h3>
@@ -129,9 +146,12 @@ export default function Recruitment() {
                   • Minimum of 5 years of <br />
                   ...
                 </p>
+                <Link to='/information' className="container-link-information">
+                <button>Read more</button>
+                </Link>
               </div>
               <div className="col-4 container-information">
-                <button>Backend Middle Nodejs</button>
+                <button className="mb-3">Backend Middle Nodejs</button>
                 <h3 className="mt-3 mb-3">
                   <b>JOB DESCRIPTION</b>
                 </h3>
@@ -150,9 +170,12 @@ export default function Recruitment() {
                   ● Graduated from a university specializing in IT training{" "}
                   <br /> ...
                 </p>
+                <Link to='/information' className="container-link-information">
+                <button>Read more</button>
+                </Link>
               </div>
               <div className="col-4 container-information">
-                <button>Java Programmer</button>
+                <button className="mb-3">Java Programmer</button>
                 <h3 className="mt-3 mb-3">
                   <b>JOB DESCRIPTION</b>
                 </h3>
@@ -170,9 +193,12 @@ export default function Recruitment() {
                   <br />
                   ...
                 </p>
+                <Link to='/information' className="container-link-information">
+                <button>Read more</button>
+                </Link>
               </div>
               <div className="col-4 container-information">
-                <button>HR Manager</button>
+                <button className="mb-3">HR Manager</button>
                 <h3 className="mt-3 mb-3">
                   <b>JOB DESCRIPTION</b>
                 </h3>
@@ -189,6 +215,9 @@ export default function Recruitment() {
                   Resource Management, Law, Business Administration, <br />
                   ...
                 </p>
+                <Link to='/information' className="container-link-information">
+                <button>Read more</button>
+                </Link>
               </div>
               
             </div>

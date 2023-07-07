@@ -1,8 +1,19 @@
 import React from "react";
 import logo from "../images/sf-logo-1 1.png";
 import "./Footer.css";
+import swal from 'sweetalert2';
+import 'sweetalert2/dist/sweetalert2.css';
 
 export default function Footer() {
+  const handleSubmit = () => {
+    swal({
+      icon: 'error',
+      type: 'error',
+      title: 'Oops...',
+      text: 'The server is under maintenance, please contact us by phone or email for support!',
+      footer: '<a href="">Why do I have this issue?</a>',
+    });
+  }
   return (
     <>
       <div className="footer-container" id="footer">
@@ -27,16 +38,16 @@ export default function Footer() {
             <div className="col-4 contact-info-information">
               <h1>MESSAGE</h1>
               <div>
-                <form>
+                {/* <form> */}
                   <h2 className="fs-3 title-input">Name</h2>
                   <input type="text" className="w-100 input" />
                   <h2 className="fs-3 mt-3 title-input">Email</h2>
                   <input type="text" className="w-100 input" />
                   <h2 className="fs-3 mt-3 title-input">Message</h2>
                   <input type="text" className="input-message w-100" />
-                  <button className="btn-send mt-5">
+                  <button className="btn-send mt-5" onClick={handleSubmit}>
                     <b>SEND</b></button>
-                </form>
+                {/* </form> */}
               </div>
             </div>
           </div>

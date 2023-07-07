@@ -29,15 +29,23 @@ export default function AboutUs() {
             <div className="row container-img-content-col-3">
               <div className="col-3">
                 <img src={img1} alt="" />
+                <h1 className="title-center text-center mt-3">Từ Thiện SF 2023</h1>
+
               </div>
               <div className="col-3">
                 <img src={img2} alt="" />
+                <h1 className="title-center text-center mt-3">Từ Thiện SF 2023</h1>
+
               </div>
               <div className="col-3">
                 <img src={img3} alt="" />
+                <h1 className="title-center text-center mt-3">Từ Thiện SF 2023</h1>
+
               </div>
               <div className="col-3">
                 <img src={img4} alt="" />
+                <h1 className="title-center text-center mt-3">Team building</h1>
+
               </div>
             </div>
           </div>

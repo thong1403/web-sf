@@ -3,6 +3,9 @@ import "./ContactUs.css";
 import imgBackgroud from "../images/Group 8.png";
 import { Button, Form, Input, InputNumber } from "antd";
 import imgInput from "../images/BG.png";
+import swal from 'sweetalert2';
+import 'sweetalert2/dist/sweetalert2.css';
+
 
 export default function ContactUs() {
   /* eslint-disable no-template-curly-in-string */
@@ -19,7 +22,13 @@ export default function ContactUs() {
   /* eslint-enable no-template-curly-in-string */
 
   const onFinish = (values) => {
-    console.log(values);
+    swal({
+      icon: 'error',
+      type: 'error',
+      title: 'Oops...',
+      text: 'The server is under maintenance, please contact us by phone or email for support!',
+      footer: '<a href="">Why do I have this issue?</a>',
+    });
   };
   return (
     <>
@@ -59,13 +68,10 @@ export default function ContactUs() {
                         Phone <span className="text-danger">*</span>
                       </label>
                       <Form.Item
-                        name={["user", "phone"]}
-                        rules={[
-                          { type: "number", min: 10, max: 99, required: true },
-                        ]}
+                        name={["user","phone"]}
                       >
-                        <InputNumber
-                          type="number"
+                        <Input
+                        type="number"
                           className="w-100"
                           id="input-centent-contact" 
                         />
@@ -136,7 +142,7 @@ export default function ContactUs() {
                       <label>You agree to our friendly privacy policy.</label>
                     </Form.Item>
                     <Form.Item className="text-center">
-                      <Button type="primary" htmlType="submit" id="btn-send-msg" >
+                      <Button type="primary" htmlType="submit" id="btn-send-msg">
                         Send message
                       </Button>
                     </Form.Item>

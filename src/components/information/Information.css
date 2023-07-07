@@ -1,0 +1,19 @@
+.container-infomation{
+    margin-top: 15%;
+    padding: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.title-job{
+    font-size: 30px;
+    font-weight: 800;
+}
+.container-infomation h2{
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+.container-infomation p{
+    font-size: 13px;
+    margin: 20px;
+    line-height: 20px;
+}

@@ -10,6 +10,8 @@ import './Home.css'
 import Services from './../services/Services';
 import Recruitment from "../Recruitment/Recruitment";
 import ButtonTop from "../buttonTop/ButtonTop";
+import Infomation from "../information/Infomation";
+import Product from "../products/Product";
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/Industries" element={<Industries />} />
           <Route path="/Recruitment" element={<Recruitment/>}/>
+          <Route path="/information" element={<Infomation/>}/>
+          <Route path="/product" element={<Product/>}/>
         </Routes>
       </div>
       <ButtonTop/>

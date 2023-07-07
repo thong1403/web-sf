@@ -15,6 +15,13 @@
 .container-information button{
   font-family: Inter;
 }
+.container-link-information {
+  color: black !important;
+  font-size: 10px !important;
+}
+.container-information h3{
+  font-size: 10px !important;
+}
 .container-we-are h1 {
   font-family: Inter;
   font-size: 48px;
