@@ -28,6 +28,7 @@ export default function ContactUs() {
       title: 'Oops...',
       text: 'The server is under maintenance, please contact us by phone or email for support!',
       footer: '<a href="">Why do I have this issue?</a>',
+      className: 'title-err'
     });
   };
   return (

@@ -79,6 +79,10 @@ color: white;
         line-height: 10px;
 
     }
+    .title-center{
+        font-size: 0.5rem;
+        margin-top: 5px !important;
+    }
     .col-12-content p{
         font-size: 1rem !important;
         line-height: 13px;
@@ -115,6 +119,10 @@ color: white;
         line-height: 15px;
 
     }
+    .title-center{
+        font-size: 1.3rem;
+        margin-top: 10px !important;
+    }
     .row-conten-about-us{
         margin-top: 3rem;
     }
@@ -142,6 +150,10 @@ color: white;
         font-size: 15px;
         line-height: 20px;
 
+    }
+    .title-center{
+        font-size: 1.5rem;
+        margin-top: 10px !important;
     }
     .row-conten-about-us{
         margin-top: 3rem;

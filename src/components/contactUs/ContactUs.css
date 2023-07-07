@@ -75,6 +75,10 @@ text-align: left;
         margin-bottom: 5px !important;
         line-height: 20px;
     }
+    .swal2-modal {
+        max-width: 80% !important;
+        font-size: 2rem;
+    }
     .container-contactus{
         margin-top: 4rem;
     }
@@ -134,6 +138,10 @@ text-align: left;
     .img-container-contact-us-col-6{
         display: none;
     }
+    .swal2-modal {
+        max-width: 80% !important;
+        font-size: 2rem;
+    }
     .container-input{
         max-width: 100%;
         flex: 100%;
@@ -180,6 +188,10 @@ text-align: left;
 @media (min-width: 768px) and (max-width: 1000px) {
     .img-container-contact-us-col-6{
         display: none;
+    }
+    .swal2-modal {
+        max-width: 80% !important;
+        font-size: 2rem;
     }
     .container-input{
         max-width: 100%;
